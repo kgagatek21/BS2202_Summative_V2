@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="selectItemForReviewAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="returnImageView" fitHeight="100.0" fitWidth="100.0" layoutX="40.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/img/return.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="itemLoanSuccessfulLabel" layoutX="490.0" layoutY="170.0" text="Item Loan Successful" textFill="WHITE">
+         <font>
+            <Font name="AppleGothic Regular" size="56.0" />
+         </font>
+      </Label>
+      <Separator fx:id="itemLoanSuccessfulSeparator" layoutX="280.0" layoutY="282.0" prefHeight="3.0" prefWidth="950.0" />
+      <Button fx:id="returnToMainMenuButton" layoutX="450.0" layoutY="800.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="600.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Return To Main Menu" textFill="WHITE">
+         <font>
+            <Font size="46.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="itemLoanedSuccessfullyImageView" fitHeight="50.0" fitWidth="50.0" layoutX="300.0" layoutY="475.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/img/check_box.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="itemLoanedSuccessfullyLabel" alignment="CENTER" layoutX="350.0" layoutY="461.0" prefHeight="80.0" prefWidth="959.0" text="Item Has Been Loaned Successfully" textFill="#a8a7a7">
+         <font>
+            <Font name="AppleGothic Regular" size="46.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="logInButton" layoutX="597.0" layoutY="735.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="300.0" style="-fx-background-radius: 45;" stylesheets="@Styles.css" text="Log In">
+         <font>
+            <Font size="46.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="30.0" offsetX="5.0" offsetY="5.0" radius="14.5" width="30.0" />
+         </effect>
+      </Button>
+      <Label fx:id="welcomeToTheLabel" layoutX="528.0" layoutY="145.0" prefHeight="80.0" prefWidth="443.0" text="Welcome to the" textFill="WHITE">
+         <font>
+            <Font name="AppleGothic Regular" size="56.0" />
+         </font>
+      </Label>
+      <TextField alignment="CENTER" layoutX="650.0" layoutY="425.0" prefHeight="50.0" prefWidth="200.0" promptText="Username" style="-fx-background-color: #363636;">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="468.0" layoutY="426.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/img/user/icons8-user-100.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="462.0" layoutY="607.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/img/lock/icons8-lock-100.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="labyrinthLibraryLabel" layoutX="532.0" layoutY="222.0" prefHeight="80.0" prefWidth="443.0" text="Labyrinth Library" textFill="WHITE">
+         <font>
+            <Font name="AppleGothic Regular" size="56.0" />
+         </font>
+      </Label>
+      <Separator layoutX="456.0" layoutY="494.0" prefHeight="2.0" prefWidth="580.0" style="-fx-background-color: #E8175D; -fx-border-color: #E8175D; -fx-border-width: 1;" />
+      <Separator layoutX="372.0" layoutY="333.0" prefHeight="2.0" prefWidth="743.0" style="-fx-background-color: #5E5E5E; -fx-border-color: #5E5E5E; -fx-border-width: 1;" />
+      <PasswordField layoutX="650.0" layoutY="600.0" prefHeight="50.0" prefWidth="200.0" promptText="Password" style="-fx-background-color: #363636;">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </PasswordField>
+      <Separator layoutX="453.0" layoutY="667.0" prefHeight="2.0" prefWidth="580.0" style="-fx-background-color: #E8175D; -fx-border-color: #E8175D; -fx-border-width: 1;" />
+   </children>
+</AnchorPane>

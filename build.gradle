@@ -1,5 +1,7 @@
 plugins {
     id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
 }
 
 group 'org.example'
@@ -7,6 +9,7 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+
 }
 
 dependencies {
@@ -14,6 +17,22 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 }
 
+javafx {
+    version = "19"
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
+
 test {
     useJUnitPlatform()
+}
+
+mainClassName = "BS2202_Summative_V2.MainApp"
+
+sourceSets{
+    main{
+        resources {
+            srcDirs = ["src/main/java"]
+            includes = ["**/*.css", "**/*.jpg", "**/*.fxml"]
+        }
+    }
 }

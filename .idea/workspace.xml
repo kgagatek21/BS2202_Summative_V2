@@ -4,7 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="New project for BS2202 summative assignment" />
+    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="New project for BS2202 summative assignment">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainScreenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/add_new_custmer_confirmation.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/add_new_customer_1.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/add_new_customer_2.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_loan_1.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_loan_2.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_review.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_print.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_print_confirmation.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_review.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/login_screen.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/main_screen.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/main_screen_admin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/select_item_for_review.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/signup_screen_1.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/signup_screen_2.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/check_box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/item-lenght.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/item-title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/item-type.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/late-fees.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/lock/icons8-lock-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/lock/icons8-lock-24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/lock/icons8-lock-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/lock/icons8-lock-96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/person-add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/person-outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/return.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/reviewtype.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/user/icons8-user-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/user/icons8-user-24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/user/icons8-user-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/user/icons8-user-96.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,9 +59,47 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BS2202_Summative_V2" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BS2202_Summative_V2" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BS2202_Summative_V2" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BS2202_Summative_V2" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -29,23 +111,83 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2NMrpbHE2CRkLEAQQ1nTbu56jNt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kacpergagatek/IdeaProjects/BS2202_Summative_V2/src/main/resources/img&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/img" />
+      <recent name="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.BS2202_Summative_V2 [run]">
+    <configuration name="BS2202_Summative_V2 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BS2202_Summative_V2 [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.BS2202_Summative_V2 [run]" />
+        <item itemvalue="Gradle.BS2202_Summative_V2 [build]" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,7 +196,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679484975464</updated>
-      <workItem from="1679484976668" duration="291000" />
+      <workItem from="1679484976668" duration="10961000" />
+      <workItem from="1679957921103" duration="103000" />
     </task>
     <task id="LOCAL-00001" summary="New project for BS2202 summative assignment">
       <created>1679485284639</created>
@@ -70,13 +213,28 @@
       <option name="project" value="LOCAL" />
       <updated>1679485318372</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="New project for BS2202 summative assignment">
+      <created>1679485332972</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679485332972</updated>
+    </task>
+    <task id="LOCAL-00004" summary="New project for BS2202 summative assignment">
+      <created>1679485526983</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679485526983</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="New project for BS2202 summative assignment" />
     <option name="LAST_COMMIT_MESSAGE" value="New project for BS2202 summative assignment" />
   </component>

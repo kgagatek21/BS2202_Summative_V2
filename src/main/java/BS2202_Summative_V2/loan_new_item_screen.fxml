@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="selectItemForReviewAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="loanNewItemScreenAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <ImageView fx:id="returnImageView" fitHeight="100.0" fitWidth="100.0" layoutX="40.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -23,7 +23,7 @@
             <Font name="AppleGothic Regular" size="56.0" />
          </font>
       </Label>
-      <Separator fx:id="loiSeparator" layoutX="464.0" layoutY="173.0" prefHeight="3.0" prefWidth="600.0" />
+      <Separator fx:id="listOfItemSeparator" layoutX="464.0" layoutY="173.0" prefHeight="3.0" prefWidth="600.0" />
       <Label fx:id="filterForLabel" layoutX="50.0" layoutY="220.0" text="Filter For:" textFill="WHITE">
          <font>
             <Font size="46.0" />
@@ -44,7 +44,7 @@
             <Font size="32.0" />
          </font>
       </Button>
-      <TextField fx:id="searchTestField" layoutX="150.0" layoutY="322.0" prefHeight="80.0" prefWidth="1278.0" promptText="Search">
+      <TextField fx:id="searchTextField" layoutX="150.0" layoutY="322.0" prefHeight="80.0" prefWidth="1278.0" promptText="Search">
          <font>
             <Font size="42.0" />
          </font>

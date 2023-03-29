@@ -5,49 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="New project for BS2202 summative assignment">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainScreenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/add_new_custmer_confirmation.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/add_new_customer_1.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/add_new_customer_2.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_loan_1.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_loan_2.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_review.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_print.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_print_confirmation.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_review.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/login_screen.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/main_screen.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/main_screen_admin.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/select_item_for_review.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/signup_screen_1.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/signup_screen_2.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Logout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/check_box.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/email.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/item-lenght.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/item-title.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/item-type.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/late-fees.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/lock/icons8-lock-100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/lock/icons8-lock-24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/lock/icons8-lock-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/lock/icons8-lock-96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/person-add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/person-outline.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/return.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/reviewtype.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/user/icons8-user-100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/user/icons8-user-24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/user/icons8-user-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/user/icons8-user-96.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/add_new_custmer_confirmation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/add_new_custmer_confirmation.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/add_new_customer_1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/add_new_customer_1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/add_new_customer_2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/add_new_customer_2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_loan_1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_loan_1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_loan_2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_loan_2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_review.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_review.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_print.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_print.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_print_confirmation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_print_confirmation.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_review.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_review.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/loan_item_customer_name.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/loan_item_customer_name.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/loan_new_item_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/loan_new_item_screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/login_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/login_screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/main_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/main_screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/main_screen_admin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/main_screen_admin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/return_item_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/return_item_screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/select_item_for_review.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/select_item_for_review.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/signup_screen_1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/signup_screen_1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/signup_screen_2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/signup_screen_2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/Logout.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/logout.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/reviewtype.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/review-type.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,6 +177,8 @@
       <updated>1679484975464</updated>
       <workItem from="1679484976668" duration="10961000" />
       <workItem from="1679957921103" duration="103000" />
+      <workItem from="1679958649246" duration="893000" />
+      <workItem from="1680097767824" duration="4394000" />
     </task>
     <task id="LOCAL-00001" summary="New project for BS2202 summative assignment">
       <created>1679485284639</created>
@@ -227,11 +208,36 @@
       <option name="project" value="LOCAL" />
       <updated>1679485526983</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="New project for BS2202 summative assignment">
+      <created>1679958719091</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679958719091</updated>
+    </task>
+    <task id="LOCAL-00006" summary="New project for BS2202 summative assignment">
+      <created>1679958837067</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679958837067</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

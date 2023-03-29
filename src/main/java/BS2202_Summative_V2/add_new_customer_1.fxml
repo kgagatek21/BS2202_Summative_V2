@@ -9,14 +9,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="selectItemForReviewAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="addNewCustomer1AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <ImageView fx:id="returnImageView" fitHeight="100.0" fitWidth="100.0" layoutX="40.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../resources/img/return.png" />
          </image>
       </ImageView>
-      <Label fx:id="addNewCustomerLabel" layoutX="400.0" layoutY="90.0" text="Add New Customer Step: 1/2" textFill="WHITE">
+      <Label fx:id="addNewCustomer12Label" layoutX="400.0" layoutY="90.0" text="Add New Customer Step: 1/2" textFill="WHITE">
          <font>
             <Font name="AppleGothic Regular" size="56.0" />
          </font>

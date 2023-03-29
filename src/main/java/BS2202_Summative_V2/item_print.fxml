@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="selectItemForReviewAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="itemPrintAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <ImageView fx:id="returnImageView" fitHeight="100.0" fitWidth="100.0" layoutX="40.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -20,7 +20,7 @@
             <Font name="AppleGothic Regular" size="56.0" />
          </font>
       </Label>
-      <Separator fx:id="itemToPrintSeperator" layoutX="464.0" layoutY="173.0" prefHeight="3.0" prefWidth="600.0" />
+      <Separator fx:id="itemToPrintSeparator" layoutX="464.0" layoutY="173.0" prefHeight="3.0" prefWidth="600.0" />
       <Button fx:id="confirmPrintButton" layoutX="600.0" layoutY="800.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="300.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Confirm Print" textFill="WHITE">
          <font>
             <Font size="32.0" />
@@ -31,7 +31,7 @@
             <Image url="@../../resources/img/item-title.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="508.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="itemLengthImageView" fitHeight="75.0" fitWidth="75.0" layoutX="508.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../resources/img/item-lenght.png" />
          </image>
@@ -57,13 +57,13 @@
             <Font name="AppleGothic Regular" size="36.0" />
          </font>
       </Label>
-      <Separator fx:id="itemTypeSeperator" layoutX="490.0" layoutY="500.0" prefHeight="2.0" prefWidth="550.0" />
-      <Label fx:id="itemLengthLabel" alignment="CENTER" layoutX="470.0" layoutY="540.0" prefHeight="80.0" prefWidth="600.0" text="Item Lenght" textFill="#a8a7a7">
+      <Separator fx:id="itemTypeSeparator" layoutX="490.0" layoutY="500.0" prefHeight="2.0" prefWidth="550.0" />
+      <Label fx:id="itemLengthLabel" alignment="CENTER" layoutX="470.0" layoutY="540.0" prefHeight="80.0" prefWidth="600.0" text="Item Length" textFill="#a8a7a7">
          <font>
             <Font name="AppleGothic Regular" size="36.0" />
          </font>
       </Label>
-      <Separator fx:id="itemLenghtImageView" layoutX="490.0" layoutY="615.0" prefHeight="2.0" prefWidth="550.0" />
+      <Separator fx:id="itemLengthSeparator" layoutX="490.0" layoutY="615.0" prefHeight="2.0" prefWidth="550.0" />
       <Label fx:id="lateFeesLabel" alignment="CENTER" layoutX="470.0" layoutY="655.0" prefHeight="80.0" prefWidth="600.0" text="Late Fees" textFill="#a8a7a7">
          <font>
             <Font name="AppleGothic Regular" size="36.0" />

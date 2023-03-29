@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="selectItemForReviewAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="loanItemCustomerNameAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <ImageView fx:id="returnImageView" fitHeight="100.0" fitWidth="100.0" layoutX="40.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -23,7 +23,7 @@
             <Font name="AppleGothic Regular" size="56.0" />
          </font>
       </Label>
-      <Separator fx:id="loiSeparator" layoutX="464.0" layoutY="173.0" prefHeight="3.0" prefWidth="600.0" />
+      <Separator fx:id="listOfCustomerSeparator" layoutX="464.0" layoutY="173.0" prefHeight="3.0" prefWidth="600.0" />
       <Label fx:id="selectCustomerLabel" layoutX="50.0" layoutY="220.0" text="Select Customer:" textFill="WHITE">
          <font>
             <Font size="46.0" />

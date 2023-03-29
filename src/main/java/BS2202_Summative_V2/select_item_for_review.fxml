@@ -24,7 +24,7 @@
             <Font name="AppleGothic Regular" size="56.0" />
          </font>
       </Label>
-      <Separator fx:id="loiSeparator" layoutX="464.0" layoutY="173.0" prefHeight="3.0" prefWidth="600.0" />
+      <Separator fx:id="listOfItemSeparator" layoutX="464.0" layoutY="173.0" prefHeight="3.0" prefWidth="600.0" />
       <Label fx:id="filterForLabel" layoutX="50.0" layoutY="220.0" text="Filter For:" textFill="WHITE">
          <font>
             <Font size="46.0" />

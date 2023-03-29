@@ -8,30 +8,30 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="selectItemForReviewAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="itemPrintConfirmationAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <ImageView fx:id="returnImageView" fitHeight="100.0" fitWidth="100.0" layoutX="40.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../resources/img/return.png" />
          </image>
       </ImageView>
-      <Label fx:id="itemToPrintLabel" layoutX="505.0" layoutY="220.0" text="Item Print Succesfull" textFill="WHITE">
+      <Label fx:id="itemPrintSuccessfulLabel" layoutX="505.0" layoutY="220.0" text="Item Print Successful" textFill="WHITE">
          <font>
             <Font name="AppleGothic Regular" size="56.0" />
          </font>
       </Label>
-      <Separator fx:id="itemToPrintSeperator" layoutX="464.0" layoutY="300.0" prefHeight="3.0" prefWidth="600.0" />
-      <Button fx:id="confirmPrintButton" layoutX="500.0" layoutY="800.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="550.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Return To Item List" textFill="WHITE">
+      <Separator fx:id="itemToPrintSeparator" layoutX="464.0" layoutY="300.0" prefHeight="3.0" prefWidth="600.0" />
+      <Button fx:id="returnToItemListButton" layoutX="500.0" layoutY="800.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="550.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Return To Item List" textFill="WHITE">
          <font>
             <Font size="32.0" />
          </font>
       </Button>
-      <ImageView fx:id="itemNameImageView" fitHeight="50.0" fitWidth="50.0" layoutX="399.0" layoutY="475.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="itemPrintSuccessfulImageView" fitHeight="50.0" fitWidth="50.0" layoutX="399.0" layoutY="475.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../resources/img/check_box.png" />
          </image>
       </ImageView>
-      <Label fx:id="itemNameLabel" alignment="CENTER" layoutX="446.0" layoutY="464.0" prefHeight="80.0" prefWidth="777.0" text="Item Has Been Printed Successfully" textFill="#a8a7a7">
+      <Label fx:id="itemPrintedSuccessfullyLabel" alignment="CENTER" layoutX="446.0" layoutY="464.0" prefHeight="80.0" prefWidth="777.0" text="Item Has Been Printed Successfully" textFill="#a8a7a7">
          <font>
             <Font name="AppleGothic Regular" size="46.0" />
          </font>

@@ -9,9 +9,15 @@ import javafx.stage.Stage;
 public class MainApp extends Application
 {
     @Override
-    public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("main_screen.fxml")); Scene scene = new Scene(root, 1512, 982);
-        stage.setTitle("Labyrinth Library");
-        stage.setScene(scene);
-        stage.show(); }
+    public void start(Stage primaryStage) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("main_screen.fxml"));
+        Scene scene = new Scene(root, 600, 400);
+        primaryStage.setTitle("Labyrinth Library");
+        primaryStage.setScene(scene);
+        primaryStage.show();
+    }
+
+    public static void main(String[] args) {
+        launch(args);
+    }
 }

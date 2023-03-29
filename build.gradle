@@ -14,7 +14,6 @@ repositories {
 
 dependencies {
     implementation "org.controlsfx:controlsfx:11.1.2"
-    implementation "org.controlsfx:controlsfx-samples:11.1.2"
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
@@ -34,8 +33,8 @@ mainClassName = "BS2202_Summative_V2.MainApp"
 sourceSets{
     main{
         resources {
-            srcDirs = ["src/main/java"]
-            includes = ["**/*.css", "**/*.jpg", "**/*.fxml"]
+            srcDirs = ["src/main/java", "src/main/resources"]
+            includes = ["**/*.css", "**/*.png", "**/*.fxml", "**/*.xml"]
         }
     }
 }

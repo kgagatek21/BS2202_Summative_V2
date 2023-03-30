@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="Fx:id's fixed for all elements">
+    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="Application runs now with scene at 600x400">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MusicAlbum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/main_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/main_screen.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,20 +82,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kacpergagatek/IdeaProjects/BS2202_Summative_V2/src/main/resources/img&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/kacpergagatek/IdeaProjects/BS2202_Summative_V2/src/main/resources/img",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/img" />
@@ -160,7 +164,8 @@
       <workItem from="1679484976668" duration="10961000" />
       <workItem from="1679957921103" duration="103000" />
       <workItem from="1679958649246" duration="893000" />
-      <workItem from="1680097767824" duration="5125000" />
+      <workItem from="1680097767824" duration="5208000" />
+      <workItem from="1680184049875" duration="2361000" />
     </task>
     <task id="LOCAL-00001" summary="New project for BS2202 summative assignment">
       <created>1679485284639</created>
@@ -211,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680102794011</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Application runs now with scene at 600x400">
+      <created>1680103466112</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680103466112</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +244,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="New project for BS2202 summative assignment" />
     <MESSAGE value="Fx:id's fixed for all elements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fx:id's fixed for all elements" />
+    <MESSAGE value="Application runs now with scene at 600x400" />
+    <option name="LAST_COMMIT_MESSAGE" value="Application runs now with scene at 600x400" />
   </component>
 </project>

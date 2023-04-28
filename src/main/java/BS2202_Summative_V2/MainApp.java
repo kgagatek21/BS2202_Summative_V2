@@ -10,8 +10,8 @@ public class MainApp extends Application
 {
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("main_screen.fxml"));
-        Scene scene = new Scene(root, 600, 400);
+        Parent root = FXMLLoader.load(getClass().getResource("login_screen.fxml"));
+        Scene scene = new Scene(root, 1512, 982);
         primaryStage.setTitle("Labyrinth Library");
         primaryStage.setScene(scene);
         primaryStage.show();

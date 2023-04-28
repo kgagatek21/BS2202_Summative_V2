@@ -6,9 +6,9 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane fx:id="loginScreenAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="loginScreenAnchorPane" fx:controller="BS2202_Summative_V2.LoginScreenController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button fx:id="logInButton" layoutX="597.0" layoutY="735.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="300.0" style="-fx-background-radius: 45;" stylesheets="@Styles.css" text="Log In">
+      <Button fx:id="logInButton" onAction="#handleLogInButtonAction" layoutX="597.0" layoutY="735.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="300.0" style="-fx-background-radius: 45;" stylesheets="@Styles.css" text="Log In">
          <font>
             <Font size="46.0" />
          </font>

@@ -9,33 +9,31 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<?import java.net.URL?>
-<AnchorPane fx:id="mainScreenAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" style="-fx-background-color: #363636;" stylesheets="@Styles.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="mainScreenAnchorPane" fx:controller="BS2202_Summative_V2.MainScreenController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #363636;" stylesheets="@Styles.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
     <children>
         <Label fx:id="labyrinthLibraryLabel" layoutX="100.0" layoutY="66.0" text="Labyrinth Library" textAlignment="CENTER" textFill="WHITE">
             <font>
                 <Font name="AppleGothic Regular" size="56.0" />
             </font>
         </Label>
-        <Button fx:id="loanNewItemButton" layoutX="100.0" layoutY="170.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="154.0" text="Loan New Item" textFill="WHITE">
+        <Button fx:id="loanNewItemButton" onAction="#handleLoanNewItemButtonAction" layoutX="100.0" layoutY="170.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="154.0" text="Loan New Item" textFill="WHITE">
             <effect>
                 <DropShadow blurType="GAUSSIAN" height="30.0" offsetX="5.0" offsetY="5.0" radius="14.5" spread="0.1" width="30.0" />
             </effect>
         </Button>
-        <Button fx:id="submitReviewButton" layoutX="225.0" layoutY="283.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="154.0" style="-fx-background-color: #E8175D; -fx-background-radius: 15;" text="Submit A Review" textFill="WHITE">
+        <Button fx:id="submitReviewButton" onAction="#handleSubmitReviewButtonAction" layoutX="225.0" layoutY="283.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="154.0" style="-fx-background-color: #E8175D; -fx-background-radius: 15;" text="Submit A Review" textFill="WHITE">
             <effect>
                 <DropShadow blurType="GAUSSIAN" height="30.0" offsetX="5.0" offsetY="5.0" radius="14.5" spread="0.1" width="30.0" />
             </effect>
         </Button>
-        <Button fx:id="returnItemButton" layoutX="350.0" layoutY="170.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="154.0" style="-fx-background-color: #E8175D; -fx-background-radius: 15;" text="Return Item" textFill="WHITE">
+        <Button fx:id="returnItemButton" onAction="#handleReturnItemButtonAction" layoutX="350.0" layoutY="170.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="154.0" style="-fx-background-color: #E8175D; -fx-background-radius: 15;" text="Return Item" textFill="WHITE">
             <effect>
                 <DropShadow blurType="GAUSSIAN" height="30.0" offsetX="5.0" offsetY="5.0" radius="14.5" spread="0.1" width="30.0" />
             </effect>
         </Button>
         <Separator fx:id="labyrinthLibrarySeparator" layoutX="102.0" layoutY="137.0" opacity="0.5" prefHeight="18.0" prefWidth="426.0" />
-        <ImageView fx:id="logoutImageView" fitHeight="50.0" fitWidth="50.0" layoutX="28.0" layoutY="19.0"
-                   pickOnBounds="true" smooth="false">
-            <Image url="@../../resources/img/logout.png"/>
+        <ImageView fx:id="logoutImageView" fitHeight="50.0" fitWidth="50.0" layoutX="28.0" layoutY="19.0" pickOnBounds="true" smooth="false">
+            <Image url="@../../resources/img/logout.png" />
         </ImageView>
     </children>
 </AnchorPane>

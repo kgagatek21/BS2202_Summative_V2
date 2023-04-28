@@ -32,32 +32,28 @@
             <Font size="36.0" />
          </font>
       </TextField>
-      <ImageView fx:id="usernameImageView" fitHeight="50.0" fitWidth="50.0" layoutX="468.0" layoutY="426.0"
-                 pickOnBounds="true" preserveRatio="true">
-         <Image url="@../../resources/img/user/icons8-user-100.png"/>
+      <ImageView fx:id="usernameImageView" fitHeight="50.0" fitWidth="50.0" layoutX="468.0" layoutY="426.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/img/user/icons8-user-100.png"/>
+         </image>
       </ImageView>
-      <ImageView fx:id="passwordImageView" fitHeight="50.0" fitWidth="50.0" layoutX="462.0" layoutY="607.0"
-                 pickOnBounds="true" preserveRatio="true">
-         <Image url="@../../resources/img/lock/icons8-lock-100.png"/>
+      <ImageView fx:id="passwordImageView" fitHeight="50.0" fitWidth="50.0" layoutX="462.0" layoutY="607.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@../../resources/img/lock/icons8-lock-100.png" />
       </ImageView>
-      <Label fx:id="labyrinthLibraryLabel" layoutX="532.0" layoutY="222.0" prefHeight="80.0" prefWidth="443.0"
-             text="Labyrinth Library" textFill="WHITE">
+      <Label fx:id="labyrinthLibraryLabel" layoutX="532.0" layoutY="222.0" prefHeight="80.0" prefWidth="443.0" text="Labyrinth Library" textFill="WHITE">
          <font>
             <Font name="AppleGothic Regular" size="56.0" />
          </font>
       </Label>
-      <Separator fx:id="usernameSeparator" layoutX="456.0" layoutY="494.0" prefHeight="2.0" prefWidth="580.0"
-                 style="-fx-background-color: #E8175D; -fx-border-color: #E8175D; -fx-border-width: 1;" />
+      <Separator fx:id="usernameSeparator" layoutX="456.0" layoutY="494.0" prefHeight="2.0" prefWidth="580.0" style="-fx-background-color: #E8175D; -fx-border-color: #E8175D; -fx-border-width: 1;" />
 
-      <PasswordField fx:id="passwordPasswordField" alignment="CENTER" layoutX="550.0" layoutY="600.0"
-                     promptText="Password" style="-fx-background-color: #363636; -fx-text-inner-color: #FFFFFF;">
+      <PasswordField fx:id="passwordPasswordField" alignment="CENTER" layoutX="550.0" layoutY="600.0" promptText="Password" style="-fx-background-color: #363636; -fx-text-inner-color: #FFFFFF;">
          <font>
             <Font size="36.0" />
          </font>
       </PasswordField>
 
-      <Separator fx:id="passwordSeparator" layoutX="453.0" layoutY="667.0" prefHeight="2.0" prefWidth="580.0"
-                 style="-fx-background-color: #E8175D; -fx-border-color: #E8175D; -fx-border-width: 1;" />
+      <Separator fx:id="passwordSeparator" layoutX="453.0" layoutY="667.0" prefHeight="2.0" prefWidth="580.0" style="-fx-background-color: #E8175D; -fx-border-color: #E8175D; -fx-border-width: 1;" />
 
    </children>
 </AnchorPane>

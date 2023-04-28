@@ -33,10 +33,9 @@
             </effect>
         </Button>
         <Separator fx:id="labyrinthLibrarySeparator" layoutX="102.0" layoutY="137.0" opacity="0.5" prefHeight="18.0" prefWidth="426.0" />
-        <ImageView fx:id="logoutImageView" fitHeight="50.0" fitWidth="50.0" layoutX="28.0" layoutY="19.0" pickOnBounds="true" smooth="false">
-            <image>
-                <Image url="@../../resources/img/logout.png" />
-            </image>
+        <ImageView fx:id="logoutImageView" fitHeight="50.0" fitWidth="50.0" layoutX="28.0" layoutY="19.0"
+                   pickOnBounds="true" smooth="false">
+            <Image url="@../../resources/img/logout.png"/>
         </ImageView>
     </children>
 </AnchorPane>

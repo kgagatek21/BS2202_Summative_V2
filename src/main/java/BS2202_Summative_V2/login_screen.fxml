@@ -11,49 +11,61 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="loginScreenAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BS2202_Summative_V2.LoginScreenController">
-   <children>
-      <Button fx:id="logInButton" layoutX="597.0" layoutY="735.0" mnemonicParsing="false" onAction="#handleLogInButtonAction" prefHeight="100.0" prefWidth="300.0" style="-fx-background-radius: 45;" stylesheets="@Styles.css" text="Log In">
-         <font>
-            <Font size="46.0" />
-         </font>
-         <effect>
-            <DropShadow blurType="GAUSSIAN" height="30.0" offsetX="5.0" offsetY="5.0" radius="14.5" width="30.0" />
-         </effect>
-      </Button>
-      <Label fx:id="welcomeToTheLabel" layoutX="528.0" layoutY="145.0" prefHeight="80.0" prefWidth="443.0" text="Welcome to the" textFill="WHITE">
-         <font>
-            <Font name="AppleGothic Regular" size="56.0" />
-         </font>
-      </Label>
-      <Separator fx:id="labyrinthLibrarySeparator" layoutX="372.0" layoutY="333.0" prefHeight="2.0" prefWidth="743.0" style="-fx-background-color: #5E5E5E; -fx-border-color: #5E5E5E; -fx-border-width: 1;" />
-      <TextField fx:id="usernameTextField" alignment="CENTER" layoutX="550.0" layoutY="425.0" promptText="Username" style="-fx-background-color: #363636; -fx-text-inner-color: #FFFFFF;">
-         <font>
-            <Font size="36.0" />
-         </font>
-      </TextField>
-      <ImageView fx:id="usernameImageView" fitHeight="50.0" fitWidth="50.0" layoutX="468.0" layoutY="426.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../resources/img/user/icons8-user-100.png"/>
-         </image>
-      </ImageView>
-      <ImageView fx:id="passwordImageView" fitHeight="50.0" fitWidth="50.0" layoutX="462.0" layoutY="607.0" pickOnBounds="true" preserveRatio="true">
-         <Image url="@../../resources/img/lock/icons8-lock-100.png" />
-      </ImageView>
-      <Label fx:id="labyrinthLibraryLabel" layoutX="532.0" layoutY="222.0" prefHeight="80.0" prefWidth="443.0" text="Labyrinth Library" textFill="WHITE">
-         <font>
-            <Font name="AppleGothic Regular" size="56.0" />
-         </font>
-      </Label>
-      <Separator fx:id="usernameSeparator" layoutX="456.0" layoutY="494.0" prefHeight="2.0" prefWidth="580.0" style="-fx-background-color: #E8175D; -fx-border-color: #E8175D; -fx-border-width: 1;" />
+<AnchorPane fx:id="loginScreenAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;"
+            xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="BS2202_Summative_V2.LoginScreenController">
+   <Button fx:id="logInButton" layoutX="597.0" layoutY="735.0" mnemonicParsing="false"
+           onAction="#handleLogInButtonAction" prefHeight="100.0" prefWidth="300.0" style="-fx-background-radius: 45;"
+           stylesheets="@Styles.css" text="Log In">
+      <font>
+         <Font size="46.0"/>
+      </font>
+      <effect>
+         <DropShadow blurType="GAUSSIAN" height="30.0" offsetX="5.0" offsetY="5.0" radius="14.5" width="30.0"/>
+      </effect>
+   </Button>
+   <Label fx:id="welcomeToTheLabel" layoutX="528.0" layoutY="145.0" prefHeight="80.0" prefWidth="443.0"
+          text="Welcome to the" textFill="WHITE">
+      <font>
+         <Font name="AppleGothic Regular" size="56.0"/>
+      </font>
+   </Label>
+   <Separator fx:id="labyrinthLibrarySeparator" layoutX="372.0" layoutY="333.0" prefHeight="2.0" prefWidth="743.0"
+              style="-fx-background-color: #5E5E5E; -fx-border-color: #5E5E5E; -fx-border-width: 1;"/>
+   <TextField fx:id="usernameTextField" alignment="CENTER" layoutX="550.0" layoutY="425.0" promptText="Username"
+              style="-fx-background-color: #363636; -fx-text-inner-color: #FFFFFF;">
+      <font>
+         <Font size="36.0"/>
+      </font>
+   </TextField>
+   <ImageView fx:id="usernameImageView" fitHeight="50.0" fitWidth="50.0" layoutX="468.0" layoutY="426.0"
+              pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../resources/img/user/icons8-user-100.jpg"/>
+      </image>
+   </ImageView>
+   <ImageView fx:id="passwordImageView" fitHeight="50.0" fitWidth="50.0" layoutX="462.0" layoutY="607.0"
+              pickOnBounds="true" preserveRatio="true">
+      <Image url="@../../resources/img/lock/icons8-lock-100.png"/>
+   </ImageView>
+   <Label fx:id="labyrinthLibraryLabel" layoutX="532.0" layoutY="222.0" prefHeight="80.0" prefWidth="443.0"
+          text="Labyrinth Library" textFill="WHITE">
+      <font>
+         <Font name="AppleGothic Regular" size="56.0"/>
+      </font>
+   </Label>
+   <Separator fx:id="usernameSeparator" layoutX="456.0" layoutY="494.0" prefHeight="2.0" prefWidth="580.0"
+              style="-fx-background-color: #E8175D; -fx-border-color: #E8175D; -fx-border-width: 1;"/>
 
-      <PasswordField fx:id="passwordPasswordField" alignment="CENTER" layoutX="550.0" layoutY="600.0" promptText="Password" style="-fx-background-color: #363636; -fx-text-inner-color: #FFFFFF;">
-         <font>
-            <Font size="36.0" />
-         </font>
-      </PasswordField>
+   <PasswordField fx:id="passwordPasswordField" alignment="CENTER" layoutX="550.0" layoutY="600.0" promptText="Password"
+                  style="-fx-background-color: #363636; -fx-text-inner-color: #FFFFFF;">
+      <font>
+         <Font size="36.0"/>
+      </font>
+   </PasswordField>
 
-      <Separator fx:id="passwordSeparator" layoutX="453.0" layoutY="667.0" prefHeight="2.0" prefWidth="580.0" style="-fx-background-color: #E8175D; -fx-border-color: #E8175D; -fx-border-width: 1;" />
+   <Separator fx:id="passwordSeparator" layoutX="453.0" layoutY="667.0" prefHeight="2.0" prefWidth="580.0"
+              style="-fx-background-color: #E8175D; -fx-border-color: #E8175D; -fx-border-width: 1;"/>
 
-   </children>
 </AnchorPane>

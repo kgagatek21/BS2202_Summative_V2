@@ -15,6 +15,7 @@ public class MainApp extends Application
         primaryStage.setTitle("Labyrinth Library");
         primaryStage.setScene(scene);
         primaryStage.show();
+
     }
 
     public static void main(String[] args) {

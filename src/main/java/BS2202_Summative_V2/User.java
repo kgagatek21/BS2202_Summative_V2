@@ -1,11 +1,13 @@
 package BS2202_Summative_V2;
 
-public class Employee {
+public class User extends Person
+{
     protected String username;
     protected String password;
 
-    public Employee(String _username, String _password)
+    public User(String _username, String _password, String _fullName)
     {
+        super(_fullName);
         this.username = _username;
         this.password = _password;
     }

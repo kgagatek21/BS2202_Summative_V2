@@ -18,10 +18,7 @@ public class Item {
 
     }
 
-    public String getName()
-    {
-        return name;
-    }
+    public String getName() {return name;}
 
     public String getLength()
     {

@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name = "BS2202_Summative_V2.Reviews" table = "Reviews">
+        <id name = "reviewID" column = "Review_ID" type = "int" />
+        <property name = "customerID" column = "Customer_ID" type = "int"/>
+        <property name = "itemID" column = "Item_ID" type = "int"/>
+        <property name = "reviewTitle" column = "Review_Title" type = "string"/>
+        <property name = "reviewStars" column = "Review_Stars" type = "float"/>
+    </class>
+    <class name = "BS2202_Summative_V2.Customer" table = "Customers">
+        <id name = "personID" column = "Customer_ID" type = "int" />
+        <property name = "fullName" column = "Full_Name" type = "string"/>
+        <property name = "emailAddress" column = "Email_Address" type = "string"/>
+        <property name = "phoneNo" column = "Phone_No" type = "string"/>
+    </class>
+    <class name = "BS2202_Summative_V2.Item" table = "Items">
+        <id name = "itemID" column = "Item_ID" type = "int" />
+        <property name = "name" column = "Item_Title" type = "string"/>
+        <property name = "type" column = "Item_Type" type = "string"/>
+        <property name = "length" column = "Item_Length" type = "string"/>
+        <property name = "noCopiesAvailable" column = "Item_Copies_Available" type = "int"/>
+        <property name = "noCopiesLoaned" column = "Item_Number_Currently_On_Loan" type = "int"/>
+    </class>
+    <class name = "BS2202_Summative_V2.ItemsOnLoan" table = "Items_On_Loan">
+        <id name = "loanID" column = "Loan_ID" type = "int" />
+        <property name = "itemID" column = "Item_ID" type = "int"/>
+        <property name = "customerID" column = "Customer_ID" type = "int"/>
+        <property name = "startUserID" column = "Loan_Start_User_ID" type = "int"/>
+        <property name = "endUserID" column = "Loan_End_User_ID" type = "int"/>
+        <property name = "startDate" column = "Start_Date" type = "date"/>
+        <property name = "expectedEndDate" column = "Expected_End_Date" type = "date"/>
+        <property name = "actualEndDate" column = "Actual_End_Date" type = "date"/>
+        <property name = "lateFeesAccumulated" column = "Late_Fees_Accumulated" type = "float"/>
+        <property name = "loanIsLive" column = "Loan_Is_Live" type = "int"/>
+    </class>
+    <class name = "BS2202_Summative_V2.User" table = "Users">
+        <id name = "personID" column = "User_ID" type = "int" />
+        <property name = "fullName" column = "User_Name" type = "string"/>
+        <property name = "password" column = "User_Password" type = "string"/>
+        <property name = "isUserAdmin" column = "User_Admin" type = "boolean"/>
+    </class>
+</hibernate-mapping>

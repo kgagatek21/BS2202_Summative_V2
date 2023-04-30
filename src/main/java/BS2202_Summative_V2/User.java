@@ -7,6 +7,7 @@ public class User extends Person
 {
     protected String username;
     protected String password;
+    protected boolean isUserAdmin;
 
     public User(int id, String _username, String _password, String _fullName)
     {
@@ -32,4 +33,11 @@ public class User extends Person
     }
     public void setPassword(String _password) {password = _password;}
 
+    public void setIsUserAdmin(boolean isAdmin) {
+        this.isUserAdmin = isAdmin;
+    }
+
+    public boolean getIsUserAdmin() {
+        return isUserAdmin;
+    }
 }

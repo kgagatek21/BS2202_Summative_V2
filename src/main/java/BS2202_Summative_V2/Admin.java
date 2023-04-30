@@ -16,7 +16,7 @@ public class Admin extends User
 
     }
 
-    public boolean isAdmin()
+    public boolean isUserIsAdmin()
     {
         return true;
     }

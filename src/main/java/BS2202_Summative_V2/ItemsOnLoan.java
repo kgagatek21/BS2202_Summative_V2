@@ -16,7 +16,7 @@ public class ItemsOnLoan {
     private Date expectedEndDate;
     private Date actualEndDate;
     private float lateFeesAccumulated;
-    private boolean isLive;
+    private boolean loanIsLive;
 
     public void setLoanID(Long loanID) {
         this.loanID = loanID;
@@ -90,11 +90,11 @@ public class ItemsOnLoan {
         return lateFeesAccumulated;
     }
 
-    public void setLive(boolean live) {
-        isLive = live;
+    public void setLoanIsLive(boolean live) {
+        loanIsLive = live;
     }
 
-    public boolean isLive() {
-        return isLive;
+    public boolean isLoanIsLive() {
+        return loanIsLive;
     }
 }

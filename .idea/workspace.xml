@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="updated entity classes, so it now also @Entity and @Id tags, and proper getters and setters">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ItemsOnLoan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Reviews.java" afterDir="false" />
+    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="updated entity classes again, maybe won't have to again">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ClassMapping.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Admin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ItemsOnLoan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ItemsOnLoan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +172,7 @@
       <workItem from="1680184049875" duration="2426000" />
       <workItem from="1682368149404" duration="132000" />
       <workItem from="1682705061598" duration="2399000" />
-      <workItem from="1682857639617" duration="14787000" />
+      <workItem from="1682857639617" duration="18327000" />
     </task>
     <task id="LOCAL-00001" summary="New project for BS2202 summative assignment">
       <created>1679485284639</created>
@@ -282,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682878261958</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="updated entity classes again, maybe won't have to again">
+      <created>1682886951579</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1682886951579</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,6 +334,7 @@
     <MESSAGE value="signup screen scripting finished but with no database connection" />
     <MESSAGE value="updated entity classes, so it now also includes Person.java and appropriate inheritance" />
     <MESSAGE value="updated entity classes, so it now also @Entity and @Id tags, and proper getters and setters" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated entity classes, so it now also @Entity and @Id tags, and proper getters and setters" />
+    <MESSAGE value="updated entity classes again, maybe won't have to again" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated entity classes again, maybe won't have to again" />
   </component>
 </project>

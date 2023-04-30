@@ -31,7 +31,7 @@
         </Button>
         <Separator fx:id="labyrinthLibrarySeparator" layoutX="102.0" layoutY="137.0" opacity="0.5" prefHeight="18.0" prefWidth="426.0" />
 
-        <Button layoutX="20.0" layoutY="21.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="55.0" text="LogOut&#10;&#10;">
+        <Button fx:id="logoutButton" onAction="#handleLogoutButton" layoutX="20.0" layoutY="21.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="55.0" text="LogOut&#10;&#10;">
             <font>
                 <Font size="12.0" />
             </font>

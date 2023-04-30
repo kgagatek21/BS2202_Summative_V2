@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="signupScreen2AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="signupScreen2AnchorPane" fx:controller="BS2202_Summative_V2.SignUpScreen2Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Button fx:id="createUserButton" layoutX="575.0" layoutY="735.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="335.0" style="-fx-background-radius: 45;" stylesheets="@Styles.css" text="Create User" textFill="WHITE">
          <font>
@@ -22,7 +22,7 @@
       </Button>
       <ImageView fx:id="fullNameImageView" fitHeight="50.0" fitWidth="50.0" layoutX="470.0" layoutY="425.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../resources/img/user/icons8-user-100.png" />
+            <Image url="@../../resources/img/user/icons8-user-100.jpg" />
          </image>
       </ImageView>
       <ImageView fx:id="usernameImageView" fitHeight="50.0" fitWidth="50.0" layoutX="470.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
@@ -37,13 +37,13 @@
       </Label>
       <Separator fx:id="fullNameSeparator" layoutX="456.0" layoutY="494.0" prefHeight="2.0" prefWidth="580.0" style="-fx-background-color: #E8175D; -fx-border-color: #E8175D; -fx-border-width: 1;" />
       <Separator fx:id="createNewUser22Separator" layoutX="300.0" layoutY="333.0" prefHeight="3.0" prefWidth="875.0" style="-fx-background-color: #5E5E5E; -fx-border-color: #5E5E5E; -fx-border-width: 1;" />
-      <PasswordField fx:id="confirmPasswordPasswordField" layoutX="600.0" layoutY="600.0" prefHeight="68.0" prefWidth="324.0" promptText="Confirm Password" style="-fx-background-color: #363636;">
+      <PasswordField fx:id="confirmPasswordPasswordField" layoutX="600.0" layoutY="600.0" prefHeight="68.0" prefWidth="324.0" promptText="Confirm Password" style="-fx-background-color: #363636; -fx-text-inner-color: #FFFFFF;">
          <font>
             <Font size="36.0" />
          </font>
       </PasswordField>
       <Separator fx:id="usernameSeparator" layoutX="453.0" layoutY="667.0" prefHeight="2.0" prefWidth="580.0" style="-fx-background-color: #E8175D; -fx-border-color: #E8175D; -fx-border-width: 1;" />
-      <PasswordField fx:id="passwordPasswordField" alignment="CENTER" layoutX="650.0" layoutY="425.0" prefHeight="50.0" prefWidth="200.0" promptText="Password" style="-fx-background-color: #363636;">
+      <PasswordField fx:id="passwordPasswordField" alignment="CENTER" layoutX="650.0" layoutY="425.0" prefHeight="50.0" prefWidth="200.0" promptText="Password" style="-fx-background-color: #363636; -fx-text-inner-color: #FFFFFF;">
          <font>
             <Font size="36.0" />
          </font>

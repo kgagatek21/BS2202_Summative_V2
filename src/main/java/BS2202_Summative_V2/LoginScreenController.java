@@ -53,6 +53,8 @@ public class LoginScreenController
             Stage stage = (Stage) logInButton.getScene().getWindow();
             FXMLLoader loader = new FXMLLoader(getClass().getResource("main_screen_admin.fxml"));
             Parent root = loader.load();
+            MainScreenAdminController controller = loader.getController();
+            controller.receiveInformation(getAdminUsername());
             Scene changeScene = new Scene(root, 600, 400);
             stage.setScene(changeScene);
             stage.show();
@@ -62,6 +64,8 @@ public class LoginScreenController
             Stage stage = (Stage) logInButton.getScene().getWindow();
             FXMLLoader loader = new FXMLLoader(getClass().getResource("main_screen.fxml"));
             Parent root = loader.load();
+            MainScreenController controller = loader.getController();
+            controller.receiveInformation(getUsername());
             Scene changeScene = new Scene(root, 600, 400);
             stage.setScene(changeScene);
             stage.show();

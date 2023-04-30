@@ -1,13 +1,28 @@
 package BS2202_Summative_V2;
 
+import javax.persistence.*;
+
+@Entity
 public class Person
 {
     protected String fullName;
 
-    public String getFullName() {return fullName;}
+    protected int personID;
 
-    public Person(String _fullName)
-    {
+    public Person(int id, String _fullName) {
+        personID = id;
         fullName = _fullName;
     }
+
+    public Person() {
+
+    }
+    @Id
+    public int getPersonID() {return personID;}
+    public void setPersonID(int id) {personID = id;}
+
+    public String getFullName() {return fullName;}
+    public void setFullName(String _fullName) {fullName=_fullName;}
+
+
 }

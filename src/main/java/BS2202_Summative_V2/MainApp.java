@@ -21,7 +21,7 @@ public class MainApp extends Application
         User myUsr = new User();
         myUsr.setUsername("Hibernate_Dude");
         myUsr.setPassword("password");
-        myUsr.setPersonID(1);
+        myUsr.setPersonID(2);
         myUsr.setIsUserAdmin(true);
         myUsr.setFullName("Hibernate Dude");
 
@@ -31,10 +31,10 @@ public class MainApp extends Application
 
         }catch (Exception e)
         {
-            System.out.println(e);
+            System.out.println("this");
         }
 
-        List<?> list = DatabaseConnection.getEmployee(1);
+        List<?> list = DatabaseConnection.getEmployee(2);
         User usr = (User) list.get(0);
         System.out.println(usr.getFullName());
         System.out.println(usr.getUsername());

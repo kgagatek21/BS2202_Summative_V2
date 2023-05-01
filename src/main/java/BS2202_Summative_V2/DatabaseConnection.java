@@ -43,7 +43,7 @@ public class DatabaseConnection
     }
     private static int getNextID()
     {
-        Query query = databaseSession.createQuery("select max(personID) from User ");
+        Query query = databaseSession.createQuery("select max(User_ID) from Users ");
         System.out.println( query.list().get(0));
         return (Integer) query.list().get(0)+1;
     }

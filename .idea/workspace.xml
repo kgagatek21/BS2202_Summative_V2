@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="updated entity classes again, created class mapping, hibernate config and DatabaseConnection class">
+    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="app connects to database, writes to database and fetches from database successfully with the User class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/DatabaseConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainApp.java" afterDir="false" />
     </list>
@@ -166,7 +167,7 @@
       <workItem from="1680184049875" duration="2426000" />
       <workItem from="1682368149404" duration="132000" />
       <workItem from="1682705061598" duration="2399000" />
-      <workItem from="1682857639617" duration="19533000" />
+      <workItem from="1682857639617" duration="21974000" />
     </task>
     <task id="LOCAL-00001" summary="New project for BS2202 summative assignment">
       <created>1679485284639</created>
@@ -294,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682890812711</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="app connects to database, writes to database and fetches from database successfully with the User class">
+      <created>1682947993054</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1682947993054</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,6 +345,7 @@
     <MESSAGE value="updated entity classes, so it now also @Entity and @Id tags, and proper getters and setters" />
     <MESSAGE value="updated entity classes again, maybe won't have to again" />
     <MESSAGE value="updated entity classes again, created class mapping, hibernate config and DatabaseConnection class" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated entity classes again, created class mapping, hibernate config and DatabaseConnection class" />
+    <MESSAGE value="app connects to database, writes to database and fetches from database successfully with the User class" />
+    <option name="LAST_COMMIT_MESSAGE" value="app connects to database, writes to database and fetches from database successfully with the User class" />
   </component>
 </project>

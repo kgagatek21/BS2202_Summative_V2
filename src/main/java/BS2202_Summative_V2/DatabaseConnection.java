@@ -27,13 +27,13 @@ public class DatabaseConnection
     public static void addUserToDatabase(User userToAdd)
     {
         openDBSession();
-        userToAdd.setPersonID(getNextID());
+//        userToAdd.setPersonID(getNextID());
         databaseSession.beginTransaction();
         databaseSession.save(userToAdd);
         databaseSession.getTransaction().commit();
         closeDBSession();
     }
-    public static List<?> getEmployee(int userID)
+    public static List<?> getUser(int userID)
     {
         openDBSession();
         Query query = databaseSession.createQuery("from User where personID = "+userID);
@@ -41,7 +41,26 @@ public class DatabaseConnection
         closeDBSession();
         return list;
     }
-    private static int getNextID()
+
+    public static void addCustomerToDatabase(Customer customerToAdd)
+    {
+        openDBSession();
+        databaseSession.beginTransaction();
+        databaseSession.save(customerToAdd);
+        databaseSession.getTransaction().commit();
+        closeDBSession();
+    }
+
+    public static List<?> getCustomer(int customerID)
+    {
+        openDBSession();
+        Query query = databaseSession.createQuery("from Customer where personID = "+customerID);
+        List<?> list = query.list();
+        closeDBSession();
+        return list;
+    }
+
+    public static int getNextID()
     {
         Query query = databaseSession.createQuery("select max(User_ID) from Users ");
         System.out.println( query.list().get(0));

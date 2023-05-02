@@ -3,7 +3,7 @@
         "-//Hibernate/Hibernate Mapping DTD//EN"
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-    <class name = "BS2202_Summative_V2.Reviews" table = "Reviews">
+    <class name = "BS2202_Summative_V2.Review" table = "Reviews">
         <id name = "reviewID" column = "Review_ID" type = "int" />
         <property name = "customerID" column = "Customer_ID" type = "int"/>
         <property name = "itemID" column = "Item_ID" type = "int"/>
@@ -23,6 +23,7 @@
         <property name = "length" column = "Item_Length" type = "string"/>
         <property name = "noCopiesAvailable" column = "Item_Copies_Available" type = "int"/>
         <property name = "noCopiesLoaned" column = "Item_Number_Currently_On_Loan" type = "int"/>
+        <property name = "imageUrl" column = "Image_Url" type = "string"/>
     </class>
     <class name = "BS2202_Summative_V2.ItemsOnLoan" table = "Items_On_Loan">
         <id name = "loanID" column = "Loan_ID" type = "int" />

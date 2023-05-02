@@ -4,39 +4,39 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class Reviews
+public class Review
 {
 
     @Id
-    private Long reviewID;
+    private int reviewID;
 
-    private Long customerID;
+    private int customerID;
 
-    private Long itemID;
+    private int itemID;
 
     private String reviewTitle;
 
     private float reviewStars;
 
-    public void setReviewID(Long reviewID) {
+    public void setReviewID(int reviewID) {
         this.reviewID = reviewID;
     }
 
-    public Long getReviewID() {
+    public int getReviewID() {
         return reviewID;
     }
 
-    public void setCustomerID(Long id) {customerID = id;}
+    public void setCustomerID(int id) {customerID = id;}
 
-    public Long getCustomerID() {
+    public int getCustomerID() {
         return customerID;
     }
 
-    public void setItemID(Long itemID) {
+    public void setItemID(int itemID) {
         this.itemID = itemID;
     }
 
-    public Long getItemID() {
+    public int getItemID() {
         return itemID;
     }
 

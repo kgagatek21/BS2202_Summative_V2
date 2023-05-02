@@ -12,6 +12,7 @@ public class Item {
     protected String type;
     protected int noCopiesAvailable;
     protected int noCopiesLoaned;
+    protected String imageUrl;
 
     public Item(int _itemID, String _Name, String _Length, String _Type, int _NoOfAvailableCopies, int _NoCopiesLoaned)
     {
@@ -59,5 +60,8 @@ public class Item {
         return noCopiesLoaned;
     }
     public void setNoCopiesLoaned(int number) {noCopiesLoaned = number;}
+
+    public String getImageUrl() {return imageUrl;}
+    public void setImageUrl(String url) {imageUrl = url;}
 
 }

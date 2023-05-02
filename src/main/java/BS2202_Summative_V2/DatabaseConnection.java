@@ -60,10 +60,66 @@ public class DatabaseConnection
         return list;
     }
 
-    public static int getNextID()
+    public static void addItemToDatabase(Item itemToAdd)
     {
-        Query query = databaseSession.createQuery("select max(User_ID) from Users ");
-        System.out.println( query.list().get(0));
-        return (Integer) query.list().get(0)+1;
+        openDBSession();
+        databaseSession.beginTransaction();
+        databaseSession.save(itemToAdd);
+        databaseSession.getTransaction().commit();
+        closeDBSession();
     }
+
+    public static List<?> getItem(int itemID)
+    {
+        openDBSession();
+        Query query = databaseSession.createQuery("from Item where itemID = "+itemID);
+        List<?> list = query.list();
+        closeDBSession();
+        return list;
+    }
+
+    public static void addReviewToDatabase(Review reviewToAdd)
+    {
+        openDBSession();
+        databaseSession.beginTransaction();
+        databaseSession.save(reviewToAdd);
+        databaseSession.getTransaction().commit();
+        closeDBSession();
+    }
+
+    public static List<?> getReview(int reviewID)
+    {
+        openDBSession();
+        Query query = databaseSession.createQuery("from Review where reviewID = "+reviewID);
+        List<?> list = query.list();
+        closeDBSession();
+        return list;
+    }
+
+    public static void addLoanToDatabase(ItemsOnLoan loanToAdd)
+    {
+        openDBSession();
+        databaseSession.beginTransaction();
+        databaseSession.save(loanToAdd);
+        databaseSession.getTransaction().commit();
+        closeDBSession();
+    }
+
+    public static List<?> getLoan(int loanID)
+    {
+        openDBSession();
+        Query query = databaseSession.createQuery("from ItemsOnLoan where loanID = "+loanID);
+        List<?> list = query.list();
+        closeDBSession();
+        return list;
+    }
+
+//    public static int getNextID()
+//    {
+//        Query query = databaseSession.createQuery("select max(User_ID) from Users ");
+//        System.out.println( query.list().get(0));
+//        return (Integer) query.list().get(0)+1;
+//    }
+
+
 }

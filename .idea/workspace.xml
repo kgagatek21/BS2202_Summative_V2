@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="app connects to database, writes to database and fetches from database successfully with the User class">
+    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="started doing customer database methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/DatabaseConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ItemsOnLoan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ItemsOnLoan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Reviews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ClassMapping.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ClassMapping.hbm.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +171,7 @@
       <workItem from="1680184049875" duration="2426000" />
       <workItem from="1682368149404" duration="132000" />
       <workItem from="1682705061598" duration="2399000" />
-      <workItem from="1682857639617" duration="21974000" />
+      <workItem from="1682857639617" duration="28243000" />
     </task>
     <task id="LOCAL-00001" summary="New project for BS2202 summative assignment">
       <created>1679485284639</created>
@@ -302,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682947993054</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="started doing customer database methods">
+      <created>1683037371758</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1683037371758</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,6 +357,7 @@
     <MESSAGE value="updated entity classes again, maybe won't have to again" />
     <MESSAGE value="updated entity classes again, created class mapping, hibernate config and DatabaseConnection class" />
     <MESSAGE value="app connects to database, writes to database and fetches from database successfully with the User class" />
-    <option name="LAST_COMMIT_MESSAGE" value="app connects to database, writes to database and fetches from database successfully with the User class" />
+    <MESSAGE value="started doing customer database methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="started doing customer database methods" />
   </component>
 </project>

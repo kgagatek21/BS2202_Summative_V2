@@ -3,6 +3,7 @@ package BS2202_Summative_V2;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
+import java.util.Date;
 import java.util.List;
 
 
@@ -16,33 +17,42 @@ public class MainApp extends Application
 //        primaryStage.setScene(scene);
 //        primaryStage.show();
 
-//        User myUsr = new User();
-//        myUsr.setUsername("Hibernate_Dude12345678");
-//        myUsr.setPassword("password12345678");
-//        myUsr.setIsUserAdmin(true);
-//        myUsr.setFullName("Hibernate Dude12345678");
-//        DatabaseConnection.addUserToDatabase(myUsr);
+
+//        Review myRev = new Review();
+//        myRev.setCustomerID(3);
+//        myRev.setItemID(3);
+//        myRev.setReviewTitle("Very Good");
+//        myRev.setReviewStars(4.5F);
 //
-//        List<?> list = DatabaseConnection.getUser(8);
-//        User usr = (User) list.get(0);
-//        System.out.println(usr.getFullName());
-//        System.out.println(usr.getUsername());
-//        System.out.println(usr.getPassword());
-//        System.out.println(usr.getIsUserAdmin());
-//        System.out.println(usr.getPersonID());
+//        DatabaseConnection.addReviewToDatabase(myRev);
+//        List<?> list = DatabaseConnection.getReview(3);
+//        Review review = (Review) list.get(0);
+//        System.out.println(review.getReviewID());
+//        System.out.println(review.getCustomerID());
+//        System.out.println(review.getItemID());
+//        System.out.println(review.getReviewTitle());
+//        System.out.println(review.getReviewStars());
 
+        java.util.Date startDT = new java.util.Date();
+        Date expectedDT = new Date(2023, 6, 16);
 
-        Customer myCust = new Customer();
-        myCust.setFullName("New Customer");
-        myCust.setEmailAddress("new.customer@email.com");
-        myCust.setPhoneNo("07771 234545");
-        DatabaseConnection.addCustomerToDatabase(myCust);
-        List<?> list = DatabaseConnection.getCustomer(8);
-        Customer cust = (Customer) list.get(0);
-        System.out.println(cust.getFullName());
-        System.out.println(cust.getPersonID());
-        System.out.println(cust.getEmailAddress());
-        System.out.println(cust.getPhoneNo());
+        java.text.SimpleDateFormat sdf =
+                new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
+        String currentTime = sdf.format(startDT);
+        String expectedTime = sdf.format(expectedDT);
+
+        ItemsOnLoan myLoan = new ItemsOnLoan();
+        myLoan.setCustomerID(1);
+        myLoan.setItemID(1);
+        myLoan.setStartUserID(1);
+        myLoan.setEndUserID(1);
+        myLoan.setStartDate(currentTime);
+        myLoan.setExpectedEndDate(expectedTime);
+        myLoan.setLateFeesAccumulated(0);
+        myLoan.setLoanIsLive(true);
+        DatabaseConnection.addLoanToDatabase(myLoan);
+
 
 
 

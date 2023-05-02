@@ -7,78 +7,78 @@ import java.util.Date;
 @Entity
 public class ItemsOnLoan {
     @Id
-    private Long loanID;
-    private Long itemID;
-    private Long customerID;
-    private  Long startUserID;
-    private Long endUserID;
-    private Date startDate;
-    private Date expectedEndDate;
-    private Date actualEndDate;
+    private int loanID;
+    private int itemID;
+    private int customerID;
+    private  int startUserID;
+    private int endUserID;
+    private String startDate;
+    private String expectedEndDate;
+    private String actualEndDate;
     private float lateFeesAccumulated;
     private boolean loanIsLive;
 
-    public void setLoanID(Long loanID) {
+    public void setLoanID(int loanID) {
         this.loanID = loanID;
     }
 
-    public Long getLoanID() {
+    public int getLoanID() {
         return loanID;
     }
 
-    public void setItemID(Long itemID) {
+    public void setItemID(int itemID) {
         this.itemID = itemID;
     }
 
-    public Long getItemID() {
+    public int getItemID() {
         return itemID;
     }
 
-    public void setCustomerID(Long customerID) {
+    public void setCustomerID(int customerID) {
         this.customerID = customerID;
     }
 
-    public Long getCustomerID() {
+    public int getCustomerID() {
         return customerID;
     }
 
-    public void setStartUserID(Long startUserID) {
+    public void setStartUserID(int startUserID) {
         this.startUserID = startUserID;
     }
 
-    public Long getStartUserID() {
+    public int getStartUserID() {
         return startUserID;
     }
 
-    public void setEndUserID(Long endUserID) {
+    public void setEndUserID(int endUserID) {
         this.endUserID = endUserID;
     }
 
-    public Long getEndUserID() {
+    public int getEndUserID() {
         return endUserID;
     }
 
-    public void setStartDate(Date startDate) {
+    public void setStartDate(String startDate) {
         this.startDate = startDate;
     }
 
-    public Date getStartDate() {
+    public String getStartDate() {
         return startDate;
     }
 
-    public void setExpectedEndDate(Date expectedEndDate) {
+    public void setExpectedEndDate(String expectedEndDate) {
         this.expectedEndDate = expectedEndDate;
     }
 
-    public Date getExpectedEndDate() {
+    public String getExpectedEndDate() {
         return expectedEndDate;
     }
 
-    public void setActualEndDate(Date actualEndDate) {
+    public void setActualEndDate(String actualEndDate) {
         this.actualEndDate = actualEndDate;
     }
 
-    public Date getActualEndDate() {
+    public String getActualEndDate() {
         return actualEndDate;
     }
 

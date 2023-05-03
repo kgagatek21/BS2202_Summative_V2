@@ -3,7 +3,8 @@ package BS2202_Summative_V2;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
-import java.util.Date;
+import java.sql.Date;
+import java.text.SimpleDateFormat;
 import java.util.List;
 
 
@@ -33,26 +34,40 @@ public class MainApp extends Application
 //        System.out.println(review.getReviewTitle());
 //        System.out.println(review.getReviewStars());
 
-        java.util.Date startDT = new java.util.Date();
-        Date expectedDT = new Date(2023, 6, 16);
+//        java.util.Date startDT = new java.util.Date();
+//        Date expectedDT = new Date(2023, 6, 16);
+//
+//        java.text.SimpleDateFormat sdf =
+//                new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+//
+//        String currentTime = sdf.format(startDT);
+//        String expectedTime = sdf.format(expectedDT);
 
-        java.text.SimpleDateFormat sdf =
-                new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+//        java.sql.Date startDate = new Date(System.currentTimeMillis());
+//
+//        ItemsOnLoan myLoan = new ItemsOnLoan();
+//        myLoan.setCustomerID(1);
+//        myLoan.setItemID(1);
+//        myLoan.setStartUserID(1);
+//        myLoan.setEndUserID(1);
+//        myLoan.setStartDate(startDate);
+//        myLoan.setExpectedEndDate("17-05-2023");
+//        myLoan.setLateFeesAccumulated(0);
+//        myLoan.setLoanIsLive(false);
+//        DatabaseConnection.addLoanToDatabase(myLoan);
 
-        String currentTime = sdf.format(startDT);
-        String expectedTime = sdf.format(expectedDT);
-
-        ItemsOnLoan myLoan = new ItemsOnLoan();
-        myLoan.setCustomerID(1);
-        myLoan.setItemID(1);
-        myLoan.setStartUserID(1);
-        myLoan.setEndUserID(1);
-        myLoan.setStartDate(currentTime);
-        myLoan.setExpectedEndDate(expectedTime);
-        myLoan.setLateFeesAccumulated(0);
-        myLoan.setLoanIsLive(true);
-        DatabaseConnection.addLoanToDatabase(myLoan);
-
+        List<?> list = DatabaseConnection.getLoan(1);
+        ItemsOnLoan loan = (ItemsOnLoan) list.get(0);
+        System.out.println(loan.getLoanID());
+        System.out.println(loan.getCustomerID());
+        System.out.println(loan.getItemID());
+        System.out.println(loan.getStartUserID());
+        System.out.println(loan.getEndUserID());
+        System.out.println(loan.getStartDate());
+        System.out.println(loan.getExpectedEndDate());
+        System.out.println(loan.getActualEndDate());
+        System.out.println(loan.getLateFeesAccumulated());
+        System.out.println(loan.isLoanIsLive());
 
 
 

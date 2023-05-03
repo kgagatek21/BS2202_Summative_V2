@@ -31,11 +31,11 @@
         <property name = "customerID" column = "Customer_ID" type = "int"/>
         <property name = "startUserID" column = "Loan_Start_User_ID" type = "int"/>
         <property name = "endUserID" column = "Loan_End_User_ID" type = "int"/>
-        <property name = "startDate" column = "Start_Date" type = "date"/>
-        <property name = "expectedEndDate" column = "Expected_End_Date" type = "date"/>
-        <property name = "actualEndDate" column = "Actual_End_Date" type = "date"/>
+        <property name = "startDate" column = "Start_Date" type = "java.sql.Date"/>
+        <property name = "expectedEndDate" column = "Expected_End_Date" type = "java.sql.Date"/>
+        <property name = "actualEndDate" column = "Actual_End_Date" type = "java.sql.Date"/>
         <property name = "lateFeesAccumulated" column = "Late_Fees_Accumulated" type = "float"/>
-        <property name = "loanIsLive" column = "Loan_Is_Live" type = "int"/>
+        <property name = "loanIsLive" column = "Loan_Is_Live" type = "boolean"/>
     </class>
     <class name = "BS2202_Summative_V2.User" table = "Users">
         <id name = "personID" column = "User_ID" type = "int" />

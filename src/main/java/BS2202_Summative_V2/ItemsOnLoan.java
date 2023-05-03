@@ -2,6 +2,10 @@ package BS2202_Summative_V2;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 @Entity
@@ -12,9 +16,12 @@ public class ItemsOnLoan {
     private int customerID;
     private  int startUserID;
     private int endUserID;
-    private String startDate;
-    private String expectedEndDate;
-    private String actualEndDate;
+    @Temporal(TemporalType.DATE)
+    private java.sql.Date startDate;
+    @Temporal(TemporalType.DATE)
+    private java.sql.Date expectedEndDate;
+    @Temporal(TemporalType.DATE)
+    private java.sql.Date actualEndDate;
     private float lateFeesAccumulated;
     private boolean loanIsLive;
 
@@ -58,27 +65,35 @@ public class ItemsOnLoan {
         return endUserID;
     }
 
-    public void setStartDate(String startDate) {
+    public void setStartDate(java.sql.Date startDate) {
         this.startDate = startDate;
     }
 
-    public String getStartDate() {
+    public java.sql.Date getStartDate() {
         return startDate;
     }
 
-    public void setExpectedEndDate(String expectedEndDate) {
+    public void setExpectedEndDate(String expectedEndDate) throws ParseException {
+        SimpleDateFormat dateformatter = new SimpleDateFormat("dd-MM-yyyy");
+        java.util.Date date = dateformatter.parse(expectedEndDate);
+        long msec = date.getTime();
+
+        this.expectedEndDate = new java.sql.Date(msec);
+    }
+
+    public void setExpectedEndDate(java.sql.Date expectedEndDate) {
         this.expectedEndDate = expectedEndDate;
     }
 
-    public String getExpectedEndDate() {
+    public java.sql.Date getExpectedEndDate() {
         return expectedEndDate;
     }
 
-    public void setActualEndDate(String actualEndDate) {
+    public void setActualEndDate(java.sql.Date actualEndDate) {
         this.actualEndDate = actualEndDate;
     }
 
-    public String getActualEndDate() {
+    public java.sql.Date getActualEndDate() {
         return actualEndDate;
     }
 

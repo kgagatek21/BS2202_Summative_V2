@@ -42,6 +42,15 @@ public class DatabaseConnection
         return list;
     }
 
+    public static List<?> getUser(String userName)
+    {
+        openDBSession();
+        Query query = databaseSession.createQuery("from User where fullName = '"+ userName + "'");
+        List<?> list = query.list();
+        closeDBSession();
+        return list;
+    }
+
     public static void addCustomerToDatabase(Customer customerToAdd)
     {
         openDBSession();

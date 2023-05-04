@@ -11,8 +11,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane fx:id="selectItemForReviewAnchorPane" fx:controller="BS2202_Summative_V2.SelectItemForReviewController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="selectItemForReviewAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BS2202_Summative_V2.SelectItemForReviewController">
    <children>
       <ImageView fx:id="returnImageView" fitHeight="100.0" fitWidth="100.0" layoutX="40.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -30,17 +29,17 @@
             <Font size="46.0" />
          </font>
       </Label>
-      <Button fx:id="filterForBooksButton" onAction="#handleFilterForBooksButtonAction" layoutX="265.0" layoutY="210.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="200.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Books" textFill="WHITE">
+      <Button fx:id="filterForBooksButton" layoutX="265.0" layoutY="210.0" mnemonicParsing="false" onAction="#handleFilterForBooksButtonAction" prefHeight="80.0" prefWidth="200.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Books" textFill="WHITE">
          <font>
             <Font size="32.0" />
          </font>
       </Button>
-      <Button fx:id="filterForMoviesButton" onAction="#handleFilterForMoviesButtonAction" layoutX="500.0" layoutY="210.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="200.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Movies" textFill="WHITE">
+      <Button fx:id="filterForMoviesButton" layoutX="500.0" layoutY="210.0" mnemonicParsing="false" onAction="#handleFilterForMoviesButtonAction" prefHeight="80.0" prefWidth="200.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Movies" textFill="WHITE">
          <font>
             <Font size="32.0" />
          </font>
       </Button>
-      <Button fx:id="filterForMusicButton" onAction="#handleFilterForMusicButtonAction" layoutX="740.0" layoutY="210.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="200.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Music" textFill="WHITE">
+      <Button fx:id="filterForMusicButton" layoutX="740.0" layoutY="210.0" mnemonicParsing="false" onAction="#handleFilterForMusicButtonAction" prefHeight="80.0" prefWidth="200.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Music" textFill="WHITE">
          <font>
             <Font size="32.0" />
          </font>
@@ -55,12 +54,12 @@
             <Image url="@../../resources/img/search.png" />
          </image>
       </ImageView>
-      <Button fx:id="continueButton" onAction="#handleContinueButtonAction" layoutX="1264.0" layoutY="857.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="200.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Continue" textFill="WHITE">
+      <Button fx:id="continueButton" layoutX="1264.0" layoutY="857.0" mnemonicParsing="false" onAction="#handleContinueButtonAction" prefHeight="80.0" prefWidth="200.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Continue" textFill="WHITE">
          <font>
             <Font size="32.0" />
          </font>
       </Button>
       <ScrollBar fx:id="itemScrollBar" layoutX="1395.0" layoutY="430.0" orientation="VERTICAL" prefHeight="375.0" prefWidth="32.0" />
-      <ListView fx:id="itemListView" layoutX="150.0" layoutY="430.0" prefHeight="375.0" prefWidth="1230.0" />
+      <ListView fx:id="itemListView" fixedCellSize="10.0" layoutX="150.0" layoutY="430.0" orientation="VERTICAL" prefHeight="375.0" prefWidth="1230.0" />
    </children>
 </AnchorPane>

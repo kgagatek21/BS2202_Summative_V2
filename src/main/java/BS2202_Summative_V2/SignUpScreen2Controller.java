@@ -60,13 +60,19 @@ public class SignUpScreen2Controller
         }
         else
         {
+            //here code for database connection  and query
+            User newUsr = new User();
+            newUsr.setFullName(newFullname);
+            newUsr.setUsername(newUsername);
+            newUsr.setPassword(passwordPasswordField.getText());
+            newUsr.setIsUserAdmin(false);
+            DatabaseConnection.addUserToDatabase(newUsr);
+
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setTitle("Action Successful");
             alert.setHeaderText(null);
             alert.setContentText("New User Registered Successfully");
             alert.showAndWait();
-
-            //here code for database connection  and query
 
             Stage stage = (Stage) createUserButton.getScene().getWindow();
             FXMLLoader loader = new FXMLLoader(getClass().getResource("main_screen_admin.fxml"));

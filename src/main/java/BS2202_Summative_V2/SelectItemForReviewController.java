@@ -28,12 +28,12 @@ public class SelectItemForReviewController implements Initializable
         itemListView = new ListView<String>();
 //        itemListView.getItems().addAll("Item 1", "item 2", "item 3");
 
+//
+//        ObservableList<String> items = FXCollections.observableArrayList (
+//                "Single", "Double", "Suite", "Family App");
+        itemListView.getItems().add("item 1");
 
-        ObservableList<String> items = FXCollections.observableArrayList (
-                "Single", "Double", "Suite", "Family App");
-        itemListView.setItems(items);
-
-        System.out.println("here");
+        System.out.println(itemListView.getItems());
     }
 
 

@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="implemented TableView in SelectItemForReview, columns hardcoded into fxml and shows dummy data. Database connection next">
+    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="SelectItemForReviewController now fetches data from database successfully">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LoanNewItemScreenController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/DatabaseConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/SelectItemForReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/SelectItemForReviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/loan_new_item_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/loan_new_item_screen.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +167,7 @@
       <workItem from="1680184049875" duration="2426000" />
       <workItem from="1682368149404" duration="132000" />
       <workItem from="1682705061598" duration="2399000" />
-      <workItem from="1682857639617" duration="45281000" />
+      <workItem from="1682857639617" duration="46206000" />
     </task>
     <task id="LOCAL-00001" summary="New project for BS2202 summative assignment">
       <created>1679485284639</created>
@@ -351,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683234223453</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="SelectItemForReviewController now fetches data from database successfully">
+      <created>1683235240090</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1683235240090</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,6 +409,7 @@
     <MESSAGE value="started doing review controller" />
     <MESSAGE value="SignUpScreen2Controller now linked to database, writes new users successfully" />
     <MESSAGE value="implemented TableView in SelectItemForReview, columns hardcoded into fxml and shows dummy data. Database connection next" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented TableView in SelectItemForReview, columns hardcoded into fxml and shows dummy data. Database connection next" />
+    <MESSAGE value="SelectItemForReviewController now fetches data from database successfully" />
+    <option name="LAST_COMMIT_MESSAGE" value="SelectItemForReviewController now fetches data from database successfully" />
   </component>
 </project>

@@ -9,6 +9,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.ImageView;
 
 import java.net.URL;
+import java.util.List;
 import java.util.ResourceBundle;
 
 public class SelectItemForReviewController implements Initializable
@@ -41,17 +42,11 @@ public class SelectItemForReviewController implements Initializable
 
     public ObservableList<Item> getItem()
     {
+        List<Item> list1 = DatabaseConnection.getItem();
+
         ObservableList<Item> list = FXCollections.observableArrayList();
 
-        Item item = new Item();
-        item.setName("nnnn");
-        item.setType("tttt");
-        item.setLength("lllll");
-        item.setNoCopiesLoaned(2);
-        item.setNoCopiesAvailable(3);
-        item.setImageUrl("pic.png");
-
-        list.add(item);
+        list.addAll(list1);
 
         return list;
     }

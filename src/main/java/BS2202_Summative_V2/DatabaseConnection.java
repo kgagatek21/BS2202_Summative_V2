@@ -87,6 +87,15 @@ public class DatabaseConnection
         return list;
     }
 
+    public static List<Item> getItem()
+    {
+        openDBSession();
+        Query query = databaseSession.createQuery("from Item");
+        List<Item> list = query.list();
+        closeDBSession();
+        return list;
+    }
+
     public static void addReviewToDatabase(Review reviewToAdd)
     {
         openDBSession();

@@ -4,9 +4,8 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
-import javafx.scene.control.ListView;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.ImageView;
 
 import java.net.URL;
@@ -21,21 +20,41 @@ public class SelectItemForReviewController implements Initializable
     public Button filterForMusicButton;
     public TextField searchTextField;
     public Button continueButton;
-    public ListView<String> itemListView;
+    public TableView<Item> itemTableView;
+    public TableColumn<Item, String> nameColumn;
+    public TableColumn<Item, String> typeColumn;
+    public TableColumn<Item, String> lengthColumn;
+    public TableColumn<Item, Integer> copiesLoanedColumn;
+    public TableColumn<Item, Integer> copiesAvailableColumn;
 
     public void initialize(URL location, ResourceBundle resources)
     {
-        itemListView = new ListView<String>();
-//        itemListView.getItems().addAll("Item 1", "item 2", "item 3");
+        nameColumn.setCellValueFactory(new PropertyValueFactory<>("name"));
+        typeColumn.setCellValueFactory(new PropertyValueFactory<>("type"));
+        lengthColumn.setCellValueFactory(new PropertyValueFactory<>("length"));
+        copiesLoanedColumn.setCellValueFactory(new PropertyValueFactory<>("noCopiesLoaned"));
+        copiesAvailableColumn.setCellValueFactory(new PropertyValueFactory<>("noCopiesAvailable"));
 
-//
-//        ObservableList<String> items = FXCollections.observableArrayList (
-//                "Single", "Double", "Suite", "Family App");
-        itemListView.getItems().add("item 1");
-
-        System.out.println(itemListView.getItems());
+        itemTableView.setItems(getItem());
     }
 
+
+    public ObservableList<Item> getItem()
+    {
+        ObservableList<Item> list = FXCollections.observableArrayList();
+
+        Item item = new Item();
+        item.setName("nnnn");
+        item.setType("tttt");
+        item.setLength("lllll");
+        item.setNoCopiesLoaned(2);
+        item.setNoCopiesAvailable(3);
+        item.setImageUrl("pic.png");
+
+        list.add(item);
+
+        return list;
+    }
 
     public void handleFilterForBooksButtonAction(ActionEvent event) {
     }
@@ -47,7 +66,6 @@ public class SelectItemForReviewController implements Initializable
     }
 
     public void handleContinueButtonAction(ActionEvent event) {
-        itemListView = new ListView<>();
-        itemListView.getItems().addAll("Item 1", "item 2", "item 3");
+
     }
 }

@@ -69,6 +69,15 @@ public class DatabaseConnection
         return list;
     }
 
+    public static List<Customer> getCustomer()
+    {
+        openDBSession();
+        Query query = databaseSession.createQuery("from Customer ");
+        List<Customer> list = query.list();
+        closeDBSession();
+        return list;
+    }
+
     public static void addItemToDatabase(Item itemToAdd)
     {
         openDBSession();

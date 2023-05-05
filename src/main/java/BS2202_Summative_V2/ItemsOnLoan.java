@@ -1,17 +1,17 @@
 package BS2202_Summative_V2;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
+import javax.persistence.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Set;
 
 @Entity
 public class ItemsOnLoan {
     @Id
     private int loanID;
+
+
     private int itemID;
     private int customerID;
     private  int startUserID;
@@ -24,6 +24,11 @@ public class ItemsOnLoan {
     private java.sql.Date actualEndDate;
     private float lateFeesAccumulated;
     private boolean loanIsLive;
+
+//    @ManyToOne (cascade=CascadeType.ALL)
+//    @JoinColumn (name = "Item_ID")
+//    private Item items;
+
 
     public void setLoanID(int loanID) {
         this.loanID = loanID;

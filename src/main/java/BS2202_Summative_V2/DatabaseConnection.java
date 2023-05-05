@@ -141,6 +141,15 @@ public class DatabaseConnection
         return list;
     }
 
+//    public static List<?> getLoan()
+//    {
+//        openDBSession();
+//        Query query = databaseSession.createQuery("from ItemsOnLoan inner join ItemsOnLoan.items ");
+//        List<?> list = query.list();
+//        closeDBSession();
+//        return list;
+//    }
+
 //    public static int getNextID()
 //    {
 //        Query query = databaseSession.createQuery("select max(User_ID) from Users ");

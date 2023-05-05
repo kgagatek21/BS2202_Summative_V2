@@ -36,6 +36,7 @@
         <property name = "actualEndDate" column = "Actual_End_Date" type = "java.sql.Date"/>
         <property name = "lateFeesAccumulated" column = "Late_Fees_Accumulated" type = "float"/>
         <property name = "loanIsLive" column = "Loan_Is_Live" type = "boolean"/>
+
     </class>
     <class name = "BS2202_Summative_V2.User" table = "Users">
         <id name = "personID" column = "User_ID" type = "int" />

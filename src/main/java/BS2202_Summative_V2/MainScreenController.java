@@ -3,18 +3,25 @@ package BS2202_Summative_V2;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
-public class MainScreenController
+import java.net.URL;
+import java.util.ResourceBundle;
+
+public class MainScreenController implements Initializable
 {
     @FXML public Button loanNewItemButton;
     @FXML public Button submitReviewButton;
     @FXML public Button returnItemButton;
     @FXML public Button logoutButton;
     private String loggedinUser;
+
+    DataSingleton data = DataSingleton.getInstance();
+
 
     public void receiveInformation(String information)
     {
@@ -59,5 +66,11 @@ public class MainScreenController
         Scene changeScene = new Scene(root, 1512, 982);
         stage.setScene(changeScene);
         stage.show();
+    }
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+
+//        System.out.println(data.getUsername());
     }
 }

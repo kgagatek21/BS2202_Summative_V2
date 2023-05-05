@@ -25,23 +25,32 @@ public class LoginScreenController
     @FXML private TextField usernameTextField;
     @FXML private PasswordField passwordPasswordField;
 
+    DataSingleton data = new DataSingleton();
+
 
     @FXML protected void handleLogInButtonAction(ActionEvent event) throws Exception
     {
+
+
         try
         {
             List<?> list = DatabaseConnection.getUser(usernameTextField.getText());
             User user = (User) list.get(0);
+            data.setUsername(user.getUsername());
 
 
-            //thought i could use "==" but it doesn't work so used object.equals() instead
+
+
+            //thought I could use "==" but it doesn't work so used object.equals() instead
             if ((user.isUserAdmin) && (Objects.equals(passwordPasswordField.getText(), user.getPassword())))
             {
                 Stage stage = (Stage) logInButton.getScene().getWindow();
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("main_screen_admin.fxml"));
                 Parent root = loader.load();
-                MainScreenAdminController controller = loader.getController();
-                controller.receiveInformation(user.getUsername());
+
+//                MainScreenAdminController controller = loader.getController();
+//                controller.receiveInformation(user.getUsername());
+
                 Scene changeScene = new Scene(root, 600, 400);
                 stage.setScene(changeScene);
                 stage.show();
@@ -51,8 +60,10 @@ public class LoginScreenController
                 Stage stage = (Stage) logInButton.getScene().getWindow();
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("main_screen.fxml"));
                 Parent root = loader.load();
-                MainScreenController controller = loader.getController();
-                controller.receiveInformation(user.getUsername());
+
+//                MainScreenController controller = loader.getController();
+//                controller.receiveInformation(user.getUsername());
+
                 Scene changeScene = new Scene(root, 600, 400);
                 stage.setScene(changeScene);
                 stage.show();
@@ -77,6 +88,7 @@ public class LoginScreenController
             alert.showAndWait();
             usernameTextField.clear();
             passwordPasswordField.clear();
+            System.out.println(e);
         }
     }
 }

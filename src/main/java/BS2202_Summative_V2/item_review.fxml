@@ -10,9 +10,9 @@
 <?import javafx.scene.text.Font?>
 <?import org.controlsfx.control.Rating?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="892.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" fx:controller="BS2202_Summative_V2.ItemReviewController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="892.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ImageView fx:id="returnButton" fitHeight="100.0" fitWidth="100.0" layoutX="24.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="returnButton"  fitHeight="100.0" fitWidth="100.0" layoutX="24.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../resources/img/return.png" />
          </image>
@@ -24,7 +24,7 @@
       </Label>
       <Rating fx:id="itemRating" layoutX="660.0" layoutY="335.0" partialRating="true" scaleX="3.0" scaleY="3.0" scaleZ="2.0" style="-fx-background-color: #363636;" updateOnHover="true"/>
       <Separator fx:id="reviewSeparator" layoutX="311.0" layoutY="243.0" prefHeight="1.0" prefWidth="900.0" />
-      <Button fx:id="submitButton" layoutX="603.0" layoutY="681.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="300.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Submit" textFill="WHITE">
+      <Button fx:id="submitButton" onAction="#handleSubmitButtonAction" layoutX="603.0" layoutY="681.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="300.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Submit" textFill="WHITE">
          <font>
             <Font size="36.0" />
          </font>

@@ -1,6 +1,7 @@
 package BS2202_Summative_V2;
 
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity
 public class Item {
@@ -13,6 +14,10 @@ public class Item {
     protected int noCopiesAvailable;
     protected int noCopiesLoaned;
     protected String imageUrl;
+
+//    @OneToMany (cascade=CascadeType.ALL)
+//    @JoinColumn (name = "Item_ID")
+//    private Set<ItemsOnLoan> loans;
 
     public Item(int _itemID, String _Name, String _Length, String _Type, int _NoOfAvailableCopies, int _NoCopiesLoaned)
     {

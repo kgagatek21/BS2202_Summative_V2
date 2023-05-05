@@ -1,3 +1,5 @@
+package BS2202_Summative_V2;
+
 import BS2202_Summative_V2.Customer;
 import BS2202_Summative_V2.DatabaseConnection;
 import BS2202_Summative_V2.Item;

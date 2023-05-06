@@ -79,7 +79,7 @@ public class LoanNewItemScreenController implements Initializable
 
         Item item = itemTableView.getSelectionModel().getSelectedItem();
 
-        Stage stage = (Stage) continueButton.getScene().getWindow();
+        Stage stage = (Stage) printItemButton.getScene().getWindow();
         FXMLLoader loader = new FXMLLoader(getClass().getResource("item_print.fxml"));
         Parent root = loader.load();
 
@@ -92,6 +92,19 @@ public class LoanNewItemScreenController implements Initializable
 
     }
 
-    public void handleContinueButtonAction(ActionEvent event) {
+    public void handleContinueButtonAction(ActionEvent event) throws IOException {
+        Item item = itemTableView.getSelectionModel().getSelectedItem();
+
+        Stage stage = (Stage) continueButton.getScene().getWindow();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("loan_item_customer_name.fxml"));
+        Parent root = loader.load();
+
+        LoanItemCustomerNameController controller = loader.getController();
+        controller.receiveInformation(loggedinUser, item);
+
+        Scene changeScene = new Scene(root, 1512, 982);
+        stage.setScene(changeScene);
+        stage.show();
+
     }
 }

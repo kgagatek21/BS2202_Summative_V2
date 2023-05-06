@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="confirmItemLoan1AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="confirmItemLoan1AnchorPane" fx:controller="BS2202_Summative_V2.ConfirmItemLoan1Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <ImageView fx:id="returnImageView" fitHeight="100.0" fitWidth="100.0" layoutX="40.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -21,7 +21,7 @@
          </font>
       </Label>
       <Separator fx:id="confirmItemLoanSeparator" layoutX="464.0" layoutY="173.0" prefHeight="3.0" prefWidth="600.0" />
-      <Button fx:id="confirmLoanButton" layoutX="600.0" layoutY="800.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="300.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Confirm Loan" textFill="WHITE">
+      <Button fx:id="confirmLoanButton" onAction="#handleConfirmLoanButtonAction" layoutX="600.0" layoutY="800.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="300.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Confirm Loan" textFill="WHITE">
          <font>
             <Font size="32.0" />
          </font>
@@ -46,36 +46,36 @@
             <Image url="@../../resources/img/email.png" />
          </image>
       </ImageView>
-      <Label fx:id="itemNameLabel" alignment="CENTER" layoutX="225.0" layoutY="430.0" prefHeight="80.0" prefWidth="470.0" text="Item Name" textFill="#a8a7a7">
+      <Label fx:id="itemNameLabel" alignment="CENTER" layoutX="225.0" layoutY="430.0" prefHeight="80.0" prefWidth="470.0" text="Item Name" textFill="#ffffff">
          <font>
             <Font name="AppleGothic Regular" size="36.0" />
          </font>
       </Label>
       <Separator fx:id="itemNameSeparator" layoutX="140.0" layoutY="510.0" prefHeight="2.0" prefWidth="550.0" />
-      <Label fx:id="emailAddressLabel" alignment="CENTER" layoutX="900.0" layoutY="655.0" prefHeight="80.0" prefWidth="450.0" text="Email Address" textFill="#a8a7a7">
+      <Label fx:id="emailAddressLabel" alignment="CENTER" layoutX="900.0" layoutY="655.0" prefHeight="80.0" prefWidth="450.0" text="Email Address" textFill="#ffffff">
          <font>
             <Font name="AppleGothic Regular" size="36.0" />
          </font>
       </Label>
       <Separator fx:id="itemLengthSeperator" layoutX="140.0" layoutY="620.0" prefHeight="2.0" prefWidth="550.0" />
-      <Label fx:id="itemLengthLabel" alignment="CENTER" layoutX="225.0" layoutY="545.0" prefHeight="80.0" prefWidth="470.0" text="Item Length" textFill="#a8a7a7">
+      <Label fx:id="itemLengthLabel" alignment="CENTER" layoutX="225.0" layoutY="545.0" prefHeight="80.0" prefWidth="470.0" text="Item Length" textFill="#ffffff">
          <font>
             <Font name="AppleGothic Regular" size="36.0" />
          </font>
       </Label>
       <Separator fx:id="emailAddressSeparator" layoutX="800.0" layoutY="730.0" prefHeight="2.0" prefWidth="550.0" />
-      <Label fx:id="lateFeesLabel" alignment="CENTER" layoutX="225.0" layoutY="655.0" prefHeight="80.0" prefWidth="470.0" text="Late Fees" textFill="#a8a7a7">
+      <Label fx:id="lateFeesLabel" alignment="CENTER" layoutX="225.0" layoutY="655.0" prefHeight="80.0" prefWidth="470.0" text="Late Fees" textFill="#ffffff">
          <font>
             <Font name="AppleGothic Regular" size="36.0" />
          </font>
       </Label>
       <Separator fx:id="lateFeesSeparator" layoutX="140.0" layoutY="730.0" prefHeight="2.0" prefWidth="550.0" />
-      <Label fx:id="customerNameLabel" alignment="CENTER" layoutX="900.0" layoutY="430.0" prefHeight="80.0" prefWidth="450.0" text="Customer Name" textFill="#a8a7a7">
+      <Label fx:id="customerNameLabel" alignment="CENTER" layoutX="900.0" layoutY="430.0" prefHeight="80.0" prefWidth="450.0" text="Customer Name" textFill="#ffffff">
          <font>
             <Font name="AppleGothic Regular" size="36.0" />
          </font>
       </Label>
-      <Label fx:id="phoneNumberLabel" alignment="CENTER" layoutX="900.0" layoutY="545.0" prefHeight="80.0" prefWidth="450.0" text="Phone Number" textFill="#a8a7a7">
+      <Label fx:id="phoneNumberLabel"  alignment="CENTER" layoutX="900.0" layoutY="545.0" prefHeight="80.0" prefWidth="450.0" text="Phone Number" textFill="#ffffff">
          <font>
             <Font name="AppleGothic Regular" size="36.0" />
          </font>
@@ -87,7 +87,7 @@
             <Image url="@../../resources/img/phone.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="customerNameImageView" fitHeight="50.0" fitWidth="50.0" layoutX="820.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="customerNameImageView"  fitHeight="50.0" fitWidth="50.0" layoutX="820.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../resources/img/person-outline.png" />
          </image>

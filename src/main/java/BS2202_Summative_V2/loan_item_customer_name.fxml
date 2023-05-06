@@ -41,7 +41,7 @@
             <Image url="@../../resources/img/search.png" />
          </image>
       </ImageView>
-      <Button fx:id="continueButton" layoutX="1264.0" layoutY="857.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="200.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Continue" textFill="WHITE">
+      <Button fx:id="continueButton" onAction="#handleContinueButtonAction" layoutX="1264.0" layoutY="857.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="200.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Continue" textFill="WHITE">
          <font>
             <Font size="32.0" />
          </font>

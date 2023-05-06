@@ -1,12 +1,16 @@
 package BS2202_Summative_V2;
 
 import BS2202_Summative_V2.JavaClasses.Customer;
+import BS2202_Summative_V2.JavaClasses.DatabaseConnection;
 import BS2202_Summative_V2.JavaClasses.Item;
 import BS2202_Summative_V2.JavaClasses.Review;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
@@ -20,22 +24,41 @@ public class ItemReviewController {
     public Button submitButton;
     public TextField typeHereTextField;
 
-    public Item itemToBeReviewed;
+    public Item selectedItem;
 
-    public Customer customerThatReviews;
+    private String loggedinUser;
+
+    private Customer selectedCustomer;
+
+    public void receiveInformation(String user, Item item, Customer customer)
+    {
+        selectedCustomer = customer;
+        loggedinUser = user;
+        selectedItem = item;
+
+    }
 
 
     public void handleSubmitButtonAction(ActionEvent event) throws IOException {
 
+        System.out.println(itemRating.getRating());
+
+
         Review newReview = new Review();
         newReview.setReviewTitle(typeHereTextField.getText());
         newReview.setReviewStars((float) itemRating.getRating());
-//        newReview.setItemID(itemToBeReviewed.getItemID());
-//        newReview.setCustomerID(customerThatReviews.getPersonID());
+        newReview.setItemID(selectedItem.getItemID());
+        newReview.setCustomerID(selectedCustomer.getPersonID());
 
-//        This is commented out because I cant get itemToBeReviewed and customerThatReviews to be passed from previous screens
-//        DatabaseConnection.addReviewToDatabase(newReview);
-        System.out.println("Item Review Successful (not really)");
+        DatabaseConnection.addReviewToDatabase(newReview);
+        System.out.println("Item Review Successful ");
+
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Item Review Successful");
+        alert.setHeaderText(null);
+        alert.setContentText("Item Review Successful");
+        alert.showAndWait();
+
 
         Stage stage = (Stage) submitButton.getScene().getWindow();
         FXMLLoader loader = new FXMLLoader(getClass().getResource("main_screen_admin.fxml"));

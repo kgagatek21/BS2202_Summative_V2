@@ -34,6 +34,8 @@ public class MainScreenController implements Initializable
         Stage stage = (Stage) loanNewItemButton.getScene().getWindow();
         FXMLLoader loader = new FXMLLoader(getClass().getResource("loan_new_item_screen.fxml"));
         Parent root = loader.load();
+        LoanNewItemScreenController controller = loader.getController();
+        controller.receiveInformation(loggedinUser);
         Scene changeScene = new Scene(root, 1512, 982);
         stage.setScene(changeScene);
         stage.show();
@@ -44,6 +46,8 @@ public class MainScreenController implements Initializable
         Stage stage = (Stage) submitReviewButton.getScene().getWindow();
         FXMLLoader loader = new FXMLLoader(getClass().getResource("select_item_for_review.fxml"));
         Parent root = loader.load();
+        SelectItemForReviewController controller = loader.getController();
+        controller.receiveInformation(loggedinUser);
         Scene changeScene = new Scene(root, 1512, 982);
         stage.setScene(changeScene);
         stage.show();
@@ -67,6 +71,7 @@ public class MainScreenController implements Initializable
         Scene changeScene = new Scene(root, 1512, 982);
         stage.setScene(changeScene);
         stage.show();
+        System.out.println("logged out of main screen: " + loggedinUser);
     }
 
     @Override

@@ -4,6 +4,7 @@ import BS2202_Summative_V2.JavaClasses.DatabaseConnection;
 import BS2202_Summative_V2.JavaClasses.Item;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
@@ -31,6 +32,19 @@ public class LoanNewItemScreenController implements Initializable
     public TableColumn<Item, String> lengthColumn;
     public TableColumn<Item, Integer> copiesLoanedColumn;
     public TableColumn<Item, Integer> copiesAvailableColumn;
+    public Button printItemButton;
+
+    private String loggedinUser;
+
+    public String getLoggedinUser()
+    {
+        return loggedinUser;
+    }
+
+    public void receiveInformation(String information)
+    {
+        loggedinUser = information;
+    }
 
     public void initialize(URL location, ResourceBundle resources)
     {
@@ -55,4 +69,9 @@ public class LoanNewItemScreenController implements Initializable
         return list;
     }
 
+    public void handlePrintItemButtonAction(ActionEvent event) {
+    }
+
+    public void handleContinueButtonAction(ActionEvent event) {
+    }
 }

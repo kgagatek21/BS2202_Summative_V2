@@ -38,6 +38,7 @@ public class LoginScreenController
             List<?> list = DatabaseConnection.getUser(usernameTextField.getText());
             User user = (User) list.get(0);
 //            data.setUsername(user.getUsername());
+            System.out.println("login screen user:" + usernameTextField.getText());
 
 
 
@@ -45,16 +46,19 @@ public class LoginScreenController
             //thought I could use "==" but it doesn't work so used object.equals() instead
             if ((user.isUserAdmin) && (Objects.equals(passwordPasswordField.getText(), user.getPassword())))
             {
+
                 Stage stage = (Stage) logInButton.getScene().getWindow();
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("main_screen_admin.fxml"));
                 Parent root = loader.load();
 
-//                MainScreenAdminController controller = loader.getController();
-//                controller.receiveInformation(user.getUsername());
+                MainScreenAdminController controller = loader.getController();
+                controller.receiveInformation(usernameTextField.getText());
+
 
                 Scene changeScene = new Scene(root, 600, 400);
                 stage.setScene(changeScene);
                 stage.show();
+
             }
             else if (!(user.isUserAdmin) && (Objects.equals(passwordPasswordField.getText(), user.getPassword())))
             {
@@ -62,8 +66,8 @@ public class LoginScreenController
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("main_screen.fxml"));
                 Parent root = loader.load();
 
-//                MainScreenController controller = loader.getController();
-//                controller.receiveInformation(user.getUsername());
+                MainScreenController controller = loader.getController();
+                controller.receiveInformation(usernameTextField.getText());
 
                 Scene changeScene = new Scene(root, 600, 400);
                 stage.setScene(changeScene);

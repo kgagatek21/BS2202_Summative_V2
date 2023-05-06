@@ -1,5 +1,6 @@
 package BS2202_Summative_V2;
 
+import BS2202_Summative_V2.JavaClasses.Customer;
 import BS2202_Summative_V2.JavaClasses.Item;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
@@ -20,13 +21,26 @@ public class ConfirmItemReviewController implements Initializable
     public Label itemLabel;
 
     public Item selectedItem;
+    public Label sureReviewItemLabel;
 
-    public void receiveInformation(Item item)
+    private String loggedinUser;
+
+    private Customer selectedCustomer;
+
+    public String getLoggedinUser()
     {
-        selectedItem = item;
-
+        return loggedinUser;
     }
 
+    public void receiveInformation(String user, Item item, Customer customer)
+    {
+        selectedCustomer = customer;
+        loggedinUser = user;
+        selectedItem = item;
+        sureReviewItemLabel.setText("Are you sure you want to review this item \n " +
+                "for Customer: " + customer.getFullName() + " ?");
+        itemLabel.setText("Item: " + item.getName());
+    }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -38,7 +52,10 @@ public class ConfirmItemReviewController implements Initializable
         FXMLLoader loader = new FXMLLoader(getClass().getResource("item_review.fxml"));
         Parent root = loader.load();
 
-        Scene changeScene = new Scene(root, 600, 400);
+        ItemReviewController controller = loader.getController();
+        controller.receiveInformation(loggedinUser,selectedItem,selectedCustomer);
+
+        Scene changeScene = new Scene(root, 1512, 982);
         stage.setScene(changeScene);
         stage.show();
     }

@@ -36,6 +36,17 @@ public class SelectItemForReviewController implements Initializable
     public TableColumn<Item, Integer> copiesLoanedColumn;
     public TableColumn<Item, Integer> copiesAvailableColumn;
 
+    private String loggedinUser;
+
+    public String getLoggedinUser()
+    {
+        return loggedinUser;
+    }
+    public void receiveInformation(String information)
+    {
+        loggedinUser = information;
+    }
+
     public void initialize(URL location, ResourceBundle resources)
     {
         nameColumn.setCellValueFactory(new PropertyValueFactory<>("name"));
@@ -72,12 +83,12 @@ public class SelectItemForReviewController implements Initializable
         Item item = itemTableView.getSelectionModel().getSelectedItem();
 
         Stage stage = (Stage) continueButton.getScene().getWindow();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("confirm_item_review.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("review_item_customer_name.fxml"));
         Parent root = loader.load();
 
-//        System.out.println(item.getName());
-        ConfirmItemReviewController controller = loader.getController();
-        controller.receiveInformation(item);
+
+        ReviewItemCustomerNameController controller = loader.getController();
+        controller.receiveInformation(loggedinUser, item);
 
         Scene changeScene = new Scene(root, 1512, 982);
         stage.setScene(changeScene);

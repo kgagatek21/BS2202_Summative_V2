@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="app can now print item info to a file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ConfirmItemLoan1Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ConfirmItemLoan2Controller.java" afterDir="false" />
+    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="you can now loan items">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/AddNewCustomer1Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/AddNewCustomer2Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/LoanItemCustomerNameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/LoanItemCustomerNameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/LoanNewItemScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/LoanNewItemScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_loan_1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_loan_1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_loan_2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_loan_2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/add_new_customer_1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/add_new_customer_1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/add_new_customer_2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/add_new_customer_2.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/loan_item_customer_name.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/loan_item_customer_name.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -180,7 +179,7 @@
       <workItem from="1680184049875" duration="2426000" />
       <workItem from="1682368149404" duration="132000" />
       <workItem from="1682705061598" duration="2399000" />
-      <workItem from="1682857639617" duration="75443000" />
+      <workItem from="1682857639617" duration="77687000" />
     </task>
     <task id="LOCAL-00001" summary="New project for BS2202 summative assignment">
       <created>1679485284639</created>
@@ -413,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683396428757</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="you can now loan items">
+      <created>1683405096584</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1683405096584</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +449,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Class diagram implemented" />
     <MESSAGE value="LoginScreenController is now complete-ish, but does not use database data. &#10;&#10;gets normal user menu for normal users&#10;&#10;gets admin menu for admins&#10;&#10;also ImageViews don't work for some reason" />
     <MESSAGE value="MainScreenController is now has functional buttons but it does not pass any information" />
     <MESSAGE value="imageview only seems to be working with website urls" />
@@ -468,6 +473,7 @@
     <MESSAGE value="moved files back to main package because it wouldnt work otherwise" />
     <MESSAGE value="did a lot of stuff to make stuff work,&#10;-receiveInformation now works as it should (but cant access attribute in initialize method)&#10;&#10;-created ReviewItemCustomerNameController with corresponding fxml&#10;&#10;-you can now review items, and it saves it into the database" />
     <MESSAGE value="app can now print item info to a file" />
-    <option name="LAST_COMMIT_MESSAGE" value="app can now print item info to a file" />
+    <MESSAGE value="you can now loan items" />
+    <option name="LAST_COMMIT_MESSAGE" value="you can now loan items" />
   </component>
 </project>

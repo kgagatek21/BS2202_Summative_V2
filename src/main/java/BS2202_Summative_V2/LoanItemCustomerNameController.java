@@ -84,4 +84,18 @@ public class LoanItemCustomerNameController implements Initializable
         stage.setScene(changeScene);
         stage.show();
     }
+
+    public void handleAddNewCustomerButtonAction(ActionEvent event) throws IOException {
+
+        Stage stage = (Stage) addNewCustomerButton.getScene().getWindow();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("add_new_customer_1.fxml"));
+        Parent root = loader.load();
+
+        AddNewCustomer1Controller controller = loader.getController();
+        controller.receiveInformation(loggedinUser);
+
+        Scene changeScene = new Scene(root, 1512, 982);
+        stage.setScene(changeScene);
+        stage.show();
+    }
 }

@@ -53,7 +53,7 @@
             <TableColumn fx:id="emailColumn" minWidth="200.0" prefWidth="75.0" text="Email Address" />
             <TableColumn fx:id="phoneColumn" minWidth="200.0" prefWidth="75.0" text="Phone Number" />
          </columns></TableView>
-      <Button fx:id="addNewCustomerButton" layoutX="836.0" layoutY="857.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="400.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Add New Customer" textFill="WHITE">
+      <Button fx:id="addNewCustomerButton" onAction="#handleAddNewCustomerButtonAction" layoutX="836.0" layoutY="857.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="400.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Add New Customer" textFill="WHITE">
          <font>
             <Font size="32.0" />
          </font>

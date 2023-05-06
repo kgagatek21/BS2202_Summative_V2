@@ -6,10 +6,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-import java.sql.Date;
-import java.text.SimpleDateFormat;
-import java.util.List;
-
 
 public class MainApp extends Application
 {

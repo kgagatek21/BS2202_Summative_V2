@@ -3,20 +3,20 @@
         "-//Hibernate/Hibernate Mapping DTD//EN"
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-    <class name = "BS2202_Summative_V2.Review" table = "Reviews">
+    <class name = "BS2202_Summative_V2.JavaClasses.Review" table = "Reviews">
         <id name = "reviewID" column = "Review_ID" type = "int" />
         <property name = "customerID" column = "Customer_ID" type = "int"/>
         <property name = "itemID" column = "Item_ID" type = "int"/>
         <property name = "reviewTitle" column = "Review_Title" type = "string"/>
         <property name = "reviewStars" column = "Review_Stars" type = "float"/>
     </class>
-    <class name = "BS2202_Summative_V2.Customer" table = "Customers">
+    <class name = "BS2202_Summative_V2.JavaClasses.Customer" table = "Customers">
         <id name = "personID" column = "Customer_ID" type = "int" />
         <property name = "fullName" column = "Full_Name" type = "string"/>
         <property name = "emailAddress" column = "Email_Address" type = "string"/>
         <property name = "phoneNo" column = "Phone_No" type = "string"/>
     </class>
-    <class name = "BS2202_Summative_V2.Item" table = "Items">
+    <class name = "BS2202_Summative_V2.JavaClasses.Item" table = "Items">
         <id name = "itemID" column = "Item_ID" type = "int" />
         <property name = "name" column = "Item_Title" type = "string"/>
         <property name = "type" column = "Item_Type" type = "string"/>
@@ -25,7 +25,7 @@
         <property name = "noCopiesLoaned" column = "Item_Number_Currently_On_Loan" type = "int"/>
         <property name = "imageUrl" column = "Image_Url" type = "string"/>
     </class>
-    <class name = "BS2202_Summative_V2.ItemsOnLoan" table = "Items_On_Loan">
+    <class name = "BS2202_Summative_V2.JavaClasses.ItemsOnLoan" table = "Items_On_Loan">
         <id name = "loanID" column = "Loan_ID" type = "int" />
         <property name = "itemID" column = "Item_ID" type = "int"/>
         <property name = "customerID" column = "Customer_ID" type = "int"/>
@@ -38,7 +38,7 @@
         <property name = "loanIsLive" column = "Loan_Is_Live" type = "boolean"/>
 
     </class>
-    <class name = "BS2202_Summative_V2.User" table = "Users">
+    <class name = "BS2202_Summative_V2.JavaClasses.User" table = "Users">
         <id name = "personID" column = "User_ID" type = "int" />
         <property name = "fullName" column = "User_Name" type = "string"/>
         <property name = "password" column = "User_Password" type = "string"/>

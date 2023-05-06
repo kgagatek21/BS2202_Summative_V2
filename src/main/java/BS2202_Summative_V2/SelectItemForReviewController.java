@@ -1,6 +1,8 @@
 package BS2202_Summative_V2;
 
 
+import BS2202_Summative_V2.JavaClasses.DatabaseConnection;
+import BS2202_Summative_V2.JavaClasses.Item;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;

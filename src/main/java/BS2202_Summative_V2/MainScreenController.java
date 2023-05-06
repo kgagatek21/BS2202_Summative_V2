@@ -1,5 +1,6 @@
 package BS2202_Summative_V2;
 
+import BS2202_Summative_V2.JavaClasses.DataSingleton;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;

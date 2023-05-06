@@ -4,25 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="LoanItemCustomerNameController now implements TableView and displays data from database">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ConfirmItemReviewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/DataSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ItemReviewController.java" afterDir="false" />
+    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="tried to get inner join query to work and failed&#10;also tried to get information passing between controllers to work but also failed&#10;finish the review process so that it takes us back to the main screen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/DatabaseConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ItemsOnLoan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ItemsOnLoan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/LoginScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/LoginScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainScreenAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainScreenAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/SelectItemForReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/SelectItemForReviewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_review.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_review.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_review.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_review.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/loan_item_customer_name.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/loan_item_customer_name.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/loan_new_item_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/loan_new_item_screen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoanItemCustomerNameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/LoanItemCustomerNameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoanNewItemScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/LoanNewItemScreenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ConfirmItemReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/ConfirmItemReviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/DataSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/DataSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ItemReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/ItemReviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ItemsOnLoan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/ItemsOnLoan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/LoanItemCustomerNameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/LoanItemCustomerNameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/LoanNewItemScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/LoanNewItemScreenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/LoginScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/LoginScreenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainScreenAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/MainScreenAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/MainScreenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MusicAlbum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/MusicAlbum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/SelectItemForReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/SelectItemForReviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/SignUpScreen1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/SignUpScreen1Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/SignUpScreen2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/SignUpScreen2Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/add_new_custmer_confirmation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/add_new_custmer_confirmation.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/add_new_customer_1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/add_new_customer_1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/add_new_customer_2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/add_new_customer_2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_loan_1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/confirm_item_loan_1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_loan_2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/confirm_item_loan_2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_review.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/confirm_item_review.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_print.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/item_print.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_print_confirmation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/item_print_confirmation.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_review.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/item_review.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/loan_item_customer_name.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/loan_item_customer_name.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/loan_new_item_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/loan_new_item_screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/login_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/login_screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/main_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/main_screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/main_screen_admin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/main_screen_admin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/return_item_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/return_item_screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/select_item_for_review.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/select_item_for_review.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/signup_screen_1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/signup_screen_1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/signup_screen_2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/signup_screen_2.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ClassMapping.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ClassMapping.hbm.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,6 +141,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2" />
       <recent name="$PROJECT_DIR$/src/main/resources/img" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="BS2202_Summative_V2.JavaClasses" />
+      <recent name="BS2202_Summative_V2.Controllers" />
+    </key>
   </component>
   <component name="RunManager" selected="Gradle.BS2202_Summative_V2 [run]">
     <configuration name="BS2202_Summative_V2 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -182,7 +214,7 @@
       <workItem from="1680184049875" duration="2426000" />
       <workItem from="1682368149404" duration="132000" />
       <workItem from="1682705061598" duration="2399000" />
-      <workItem from="1682857639617" duration="60790000" />
+      <workItem from="1682857639617" duration="62295000" />
     </task>
     <task id="LOCAL-00001" summary="New project for BS2202 summative assignment">
       <created>1679485284639</created>
@@ -387,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683238232849</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="tried to get inner join query to work and failed&#10;also tried to get information passing between controllers to work but also failed&#10;finish the review process so that it takes us back to the main screen">
+      <created>1683318513708</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1683318513708</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,6 +480,7 @@
     <MESSAGE value="SelectItemForReviewController now fetches data from database successfully" />
     <MESSAGE value="LoanNewItemScreenController now implements TableView and fetches and displays data from database" />
     <MESSAGE value="LoanItemCustomerNameController now implements TableView and displays data from database" />
-    <option name="LAST_COMMIT_MESSAGE" value="LoanItemCustomerNameController now implements TableView and displays data from database" />
+    <MESSAGE value="tried to get inner join query to work and failed&#10;also tried to get information passing between controllers to work but also failed&#10;finish the review process so that it takes us back to the main screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="tried to get inner join query to work and failed&#10;also tried to get information passing between controllers to work but also failed&#10;finish the review process so that it takes us back to the main screen" />
   </component>
 </project>

@@ -1,5 +1,7 @@
 package BS2202_Summative_V2;
 
+import BS2202_Summative_V2.JavaClasses.DatabaseConnection;
+import BS2202_Summative_V2.JavaClasses.User;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -8,7 +10,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
-import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 import javafx.scene.control.Alert;
@@ -25,7 +26,7 @@ public class LoginScreenController
     @FXML private TextField usernameTextField;
     @FXML private PasswordField passwordPasswordField;
 
-    DataSingleton data = new DataSingleton();
+//    DataSingleton data = new DataSingleton();
 
 
     @FXML protected void handleLogInButtonAction(ActionEvent event) throws Exception
@@ -36,7 +37,7 @@ public class LoginScreenController
         {
             List<?> list = DatabaseConnection.getUser(usernameTextField.getText());
             User user = (User) list.get(0);
-            data.setUsername(user.getUsername());
+//            data.setUsername(user.getUsername());
 
 
 

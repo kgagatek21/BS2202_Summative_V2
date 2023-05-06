@@ -1,4 +1,4 @@
-package BS2202_Summative_V2;
+package BS2202_Summative_V2.JavaClasses;
 
 import javax.persistence.*;
 
@@ -7,7 +7,7 @@ public class User extends Person
 {
     protected String username;
     protected String password;
-    protected boolean isUserAdmin;
+    public boolean isUserAdmin;
 
     public User(int id, String _username, String _password, String _fullName)
     {

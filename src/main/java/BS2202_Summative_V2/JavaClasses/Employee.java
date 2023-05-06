@@ -1,6 +1,10 @@
-package BS2202_Summative_V2;
+package BS2202_Summative_V2.JavaClasses;
 
 import javax.persistence.*;
+
+/**
+ * not used for this project, just a guideline
+ */
 @Entity
 public class Employee
 {

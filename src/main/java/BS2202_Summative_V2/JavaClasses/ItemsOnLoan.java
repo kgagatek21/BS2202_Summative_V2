@@ -1,4 +1,4 @@
-package BS2202_Summative_V2;
+package BS2202_Summative_V2.JavaClasses;
 
 import javax.persistence.*;
 import java.text.ParseException;

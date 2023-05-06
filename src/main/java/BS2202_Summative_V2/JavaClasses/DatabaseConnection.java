@@ -1,4 +1,4 @@
-package BS2202_Summative_V2;
+package BS2202_Summative_V2.JavaClasses;
 import org.hibernate.*;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;

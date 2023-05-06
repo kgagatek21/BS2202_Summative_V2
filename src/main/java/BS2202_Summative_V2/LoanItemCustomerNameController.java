@@ -1,8 +1,7 @@
 package BS2202_Summative_V2;
 
-import BS2202_Summative_V2.Customer;
-import BS2202_Summative_V2.DatabaseConnection;
-import BS2202_Summative_V2.Item;
+import BS2202_Summative_V2.JavaClasses.Customer;
+import BS2202_Summative_V2.JavaClasses.DatabaseConnection;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.Initializable;

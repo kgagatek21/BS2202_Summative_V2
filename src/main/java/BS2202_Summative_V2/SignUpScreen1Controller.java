@@ -9,8 +9,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
-import java.util.Objects;
-
 public class SignUpScreen1Controller
 {
     public TextField usernameTextField;

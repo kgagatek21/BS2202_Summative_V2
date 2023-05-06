@@ -1,0 +1,4 @@
+Item Name: Lord of the Rings
+Item Type: Hardcover Book
+Item Length: 600 pages
+Item Fees: £0.50 per day

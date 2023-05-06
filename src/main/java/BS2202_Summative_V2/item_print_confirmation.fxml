@@ -21,7 +21,7 @@
          </font>
       </Label>
       <Separator fx:id="itemToPrintSeparator" layoutX="464.0" layoutY="300.0" prefHeight="3.0" prefWidth="600.0" />
-      <Button fx:id="returnToItemListButton" layoutX="500.0" layoutY="800.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="550.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Return To Item List" textFill="WHITE">
+      <Button fx:id="returnToItemListButton" onAction="#handleReturnToItemListButtonAction" layoutX="500.0" layoutY="800.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="550.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Return To Item List" textFill="WHITE">
          <font>
             <Font size="32.0" />
          </font>

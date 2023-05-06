@@ -1,0 +1,4 @@
+Item Name: Harry Potter
+Item Type: Hardcover Book
+Item Length: 400 Pages
+Item Fees: £0.50 per day

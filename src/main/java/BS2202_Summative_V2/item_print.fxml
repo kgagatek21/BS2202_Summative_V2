@@ -21,7 +21,7 @@
          </font>
       </Label>
       <Separator fx:id="itemToPrintSeparator" layoutX="464.0" layoutY="173.0" prefHeight="3.0" prefWidth="600.0" />
-      <Button fx:id="confirmPrintButton" layoutX="600.0" layoutY="800.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="300.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Confirm Print" textFill="WHITE">
+      <Button fx:id="confirmPrintButton" onAction="#handleConfirmPrintButtonAction" layoutX="600.0" layoutY="800.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="300.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Confirm Print" textFill="WHITE">
          <font>
             <Font size="32.0" />
          </font>
@@ -46,25 +46,25 @@
             <Image url="@../../resources/img/item-type.png" />
          </image>
       </ImageView>
-      <Label fx:id="itemNameLabel" alignment="CENTER" layoutX="470.0" layoutY="310.0" prefHeight="80.0" prefWidth="600.0" text="Item Name" textFill="#a8a7a7">
+      <Label fx:id="itemNameLabel" alignment="CENTER" layoutX="470.0" layoutY="310.0" prefHeight="80.0" prefWidth="600.0" text="Item Name" textFill="#ffffff">
          <font>
             <Font name="AppleGothic Regular" size="36.0" />
          </font>
       </Label>
       <Separator fx:id="itemNameSeparator" layoutX="490.0" layoutY="389.0" prefHeight="2.0" prefWidth="550.0" />
-      <Label fx:id="itemTypeLabel" alignment="CENTER" layoutX="470.0" layoutY="425.0" prefHeight="80.0" prefWidth="600.0" text="Item Type" textFill="#a8a7a7">
+      <Label fx:id="itemTypeLabel" alignment="CENTER" layoutX="470.0" layoutY="425.0" prefHeight="80.0" prefWidth="600.0" text="Item Type" textFill="#ffffff">
          <font>
             <Font name="AppleGothic Regular" size="36.0" />
          </font>
       </Label>
       <Separator fx:id="itemTypeSeparator" layoutX="490.0" layoutY="500.0" prefHeight="2.0" prefWidth="550.0" />
-      <Label fx:id="itemLengthLabel" alignment="CENTER" layoutX="470.0" layoutY="540.0" prefHeight="80.0" prefWidth="600.0" text="Item Length" textFill="#a8a7a7">
+      <Label fx:id="itemLengthLabel" alignment="CENTER" layoutX="470.0" layoutY="540.0" prefHeight="80.0" prefWidth="600.0" text="Item Length" textFill="#ffffff">
          <font>
             <Font name="AppleGothic Regular" size="36.0" />
          </font>
       </Label>
       <Separator fx:id="itemLengthSeparator" layoutX="490.0" layoutY="615.0" prefHeight="2.0" prefWidth="550.0" />
-      <Label fx:id="lateFeesLabel" alignment="CENTER" layoutX="470.0" layoutY="655.0" prefHeight="80.0" prefWidth="600.0" text="Late Fees" textFill="#a8a7a7">
+      <Label fx:id="lateFeesLabel" alignment="CENTER" layoutX="470.0" layoutY="655.0" prefHeight="80.0" prefWidth="600.0" text="Late Fees" textFill="#ffffff">
          <font>
             <Font name="AppleGothic Regular" size="36.0" />
          </font>

@@ -1,0 +1,4 @@
+Item Name: The Real Slim Shady
+Item Type: CD
+Item Length: 30 mins
+Item Fees: £0.50 per day

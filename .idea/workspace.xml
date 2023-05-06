@@ -4,25 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="moved files back to main package because it wouldnt work otherwise">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ItemPrintConfirmationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ItemPrintController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ReviewItemCustomerNameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/review_item_customer_name.fxml" afterDir="false" />
+    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="did a lot of stuff to make stuff work,&#10;-receiveInformation now works as it should (but cant access attribute in initialize method)&#10;&#10;-created ReviewItemCustomerNameController with corresponding fxml&#10;&#10;-you can now review items, and it saves it into the database">
+      <change afterPath="$PROJECT_DIR$/Harry Potter.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/The Real Slim Shady.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filename.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ConfirmItemReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ConfirmItemReviewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ItemReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ItemReviewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/LoanItemCustomerNameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/LoanItemCustomerNameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ItemPrintConfirmationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ItemPrintConfirmationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ItemPrintController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ItemPrintController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/LoanNewItemScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/LoanNewItemScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/LoginScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/LoginScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainScreenAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainScreenAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/SelectItemForReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/SelectItemForReviewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_review.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_review.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_print.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_print.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_print_confirmation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_print_confirmation.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_review.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_review.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/loan_new_item_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/loan_new_item_screen.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +181,7 @@
       <workItem from="1680184049875" duration="2426000" />
       <workItem from="1682368149404" duration="132000" />
       <workItem from="1682705061598" duration="2399000" />
-      <workItem from="1682857639617" duration="69348000" />
+      <workItem from="1682857639617" duration="72080000" />
     </task>
     <task id="LOCAL-00001" summary="New project for BS2202 summative assignment">
       <created>1679485284639</created>
@@ -409,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683384659968</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="did a lot of stuff to make stuff work,&#10;-receiveInformation now works as it should (but cant access attribute in initialize method)&#10;&#10;-created ReviewItemCustomerNameController with corresponding fxml&#10;&#10;-you can now review items, and it saves it into the database">
+      <created>1683392554380</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1683392554380</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,7 +437,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fx:id's fixed for all elements" />
     <MESSAGE value="Application runs now with scene at 600x400" />
     <MESSAGE value="Class diagram implemented" />
     <MESSAGE value="LoginScreenController is now complete-ish, but does not use database data. &#10;&#10;gets normal user menu for normal users&#10;&#10;gets admin menu for admins&#10;&#10;also ImageViews don't work for some reason" />
@@ -464,6 +461,7 @@
     <MESSAGE value="LoanItemCustomerNameController now implements TableView and displays data from database" />
     <MESSAGE value="tried to get inner join query to work and failed&#10;also tried to get information passing between controllers to work but also failed&#10;finish the review process so that it takes us back to the main screen" />
     <MESSAGE value="moved files back to main package because it wouldnt work otherwise" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved files back to main package because it wouldnt work otherwise" />
+    <MESSAGE value="did a lot of stuff to make stuff work,&#10;-receiveInformation now works as it should (but cant access attribute in initialize method)&#10;&#10;-created ReviewItemCustomerNameController with corresponding fxml&#10;&#10;-you can now review items, and it saves it into the database" />
+    <option name="LAST_COMMIT_MESSAGE" value="did a lot of stuff to make stuff work,&#10;-receiveInformation now works as it should (but cant access attribute in initialize method)&#10;&#10;-created ReviewItemCustomerNameController with corresponding fxml&#10;&#10;-you can now review items, and it saves it into the database" />
   </component>
 </project>

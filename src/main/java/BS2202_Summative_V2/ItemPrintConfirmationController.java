@@ -12,6 +12,7 @@ import java.io.IOException;
 
 public class ItemPrintConfirmationController {
     public Button returnToItemListButton;
+    public Button backButton;
     private String loggedinUser;
 
     public String getLoggedinUser()
@@ -31,6 +32,15 @@ public class ItemPrintConfirmationController {
         Parent root = loader.load();
         LoanNewItemScreenController controller = loader.getController();
         controller.receiveInformation(loggedinUser);
+        Scene changeScene = new Scene(root, 1512, 982);
+        stage.setScene(changeScene);
+        stage.show();
+    }
+
+    public void handleBackButtonAction(ActionEvent event) throws IOException {
+        Stage stage = (Stage) backButton.getScene().getWindow();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("item_print.fxml"));
+        Parent root = loader.load();
         Scene changeScene = new Scene(root, 1512, 982);
         stage.setScene(changeScene);
         stage.show();

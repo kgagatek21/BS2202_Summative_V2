@@ -14,6 +14,7 @@ import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
+import java.io.IOException;
 import java.sql.Date;
 import java.text.ParseException;
 
@@ -29,6 +30,7 @@ public class ConfirmItemLoan1Controller {
     public Label lateFeesLabel;
     public Label customerNameLabel;
     public Label phoneNumberLabel;
+    public Button backButton;
 
 
     private String loggedinUser;
@@ -91,5 +93,14 @@ public class ConfirmItemLoan1Controller {
 
 
 
+    }
+
+    public void handleBackButtonAction(ActionEvent event) throws IOException {
+        Stage stage = (Stage) backButton.getScene().getWindow();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("loan_item_customer_name.fxml"));
+        Parent root = loader.load();
+        Scene changeScene = new Scene(root, 1512, 982);
+        stage.setScene(changeScene);
+        stage.show();
     }
 }

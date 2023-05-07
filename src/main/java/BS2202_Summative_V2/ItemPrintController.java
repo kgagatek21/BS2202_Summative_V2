@@ -24,6 +24,7 @@ public class ItemPrintController implements Initializable {
     public Label itemTypeLabel;
     public Label itemLengthLabel;
     public Label lateFeesLabel;
+    public Button backButton;
 
     private String loggedinUser;
 
@@ -82,5 +83,14 @@ public class ItemPrintController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
+    }
+
+    public void handleBackButtonAction(ActionEvent event) throws IOException {
+        Stage stage = (Stage) backButton.getScene().getWindow();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("loan_new_item_screen.fxml"));
+        Parent root = loader.load();
+        Scene changeScene = new Scene(root, 1512, 982);
+        stage.setScene(changeScene);
+        stage.show();
     }
 }

@@ -16,6 +16,7 @@ public class AddNewCustomer1Controller {
     public Button nextButton;
     public TextField fullNameTextField;
     public TextField phoneNumberTextField;
+    public Button backButton;
     private String loggedinUser;
     
     public void receiveInformation(String user)
@@ -37,5 +38,14 @@ public class AddNewCustomer1Controller {
         stage.setScene(changeScene);
         stage.show();
 
+    }
+
+    public void handleBackButtonAction(ActionEvent event) throws IOException {
+        Stage stage = (Stage) backButton.getScene().getWindow();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("loan_item_customer_name.fxml"));
+        Parent root = loader.load();
+        Scene changeScene = new Scene(root, 1512, 982);
+        stage.setScene(changeScene);
+        stage.show();
     }
 }

@@ -16,6 +16,7 @@ import java.util.List;
 
 public class ConfirmItemLoan2Controller {
     public Button returnToMainMenuButton;
+    public Button backButton;
 
     private String loggedinUser;
 
@@ -63,5 +64,14 @@ public class ConfirmItemLoan2Controller {
                 stage.show();
             }
 
+    }
+
+    public void handleBackButtonAction(ActionEvent event) throws IOException {
+        Stage stage = (Stage) backButton.getScene().getWindow();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("confirm_item_loan_1.fxml"));
+        Parent root = loader.load();
+        Scene changeScene = new Scene(root, 1512, 982);
+        stage.setScene(changeScene);
+        stage.show();
     }
 }

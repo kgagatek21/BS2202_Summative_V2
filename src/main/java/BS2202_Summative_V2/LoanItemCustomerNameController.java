@@ -33,6 +33,7 @@ public class LoanItemCustomerNameController implements Initializable
     public Button continueButton;
 
     public Item selectedItem;
+    public Button backButton;
 
     private String loggedinUser;
 
@@ -94,6 +95,15 @@ public class LoanItemCustomerNameController implements Initializable
         AddNewCustomer1Controller controller = loader.getController();
         controller.receiveInformation(loggedinUser);
 
+        Scene changeScene = new Scene(root, 1512, 982);
+        stage.setScene(changeScene);
+        stage.show();
+    }
+
+    public void handleBackButtonAction(ActionEvent event) throws IOException {
+        Stage stage = (Stage) backButton.getScene().getWindow();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("loan_new_item_screen.fxml"));
+        Parent root = loader.load();
         Scene changeScene = new Scene(root, 1512, 982);
         stage.setScene(changeScene);
         stage.show();

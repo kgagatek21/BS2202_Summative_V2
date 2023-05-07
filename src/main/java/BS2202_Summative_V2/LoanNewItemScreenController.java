@@ -3,6 +3,7 @@ package BS2202_Summative_V2;
 import BS2202_Summative_V2.JavaClasses.Customer;
 import BS2202_Summative_V2.JavaClasses.DatabaseConnection;
 import BS2202_Summative_V2.JavaClasses.Item;
+import BS2202_Summative_V2.JavaClasses.User;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -39,6 +40,7 @@ public class LoanNewItemScreenController implements Initializable
     public TableColumn<Item, Integer> copiesLoanedColumn;
     public TableColumn<Item, Integer> copiesAvailableColumn;
     public Button printItemButton;
+    public Button backButton;
 
     private String loggedinUser;
 
@@ -106,5 +108,38 @@ public class LoanNewItemScreenController implements Initializable
         stage.setScene(changeScene);
         stage.show();
 
+    }
+
+    public void handleBackButtonAction(ActionEvent event) throws IOException {
+        List<?> list = DatabaseConnection.getUser(loggedinUser);
+        User user = (User) list.get(0);
+
+        if (user.isUserAdmin)
+        {
+            Stage stage = (Stage) backButton.getScene().getWindow();
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("main_screen_admin.fxml"));
+            Parent root = loader.load();
+
+            MainScreenAdminController controller = loader.getController();
+            controller.receiveInformation(loggedinUser);
+
+            Scene changeScene = new Scene(root, 600, 400);
+            stage.setScene(changeScene);
+            stage.show();
+        }else
+
+        {
+
+            Stage stage = (Stage) backButton.getScene().getWindow();
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("main_screen.fxml"));
+            Parent root = loader.load();
+
+            MainScreenController controller = loader.getController();
+            controller.receiveInformation(loggedinUser);
+
+            Scene changeScene = new Scene(root, 600, 400);
+            stage.setScene(changeScene);
+            stage.show();
+        }
     }
 }

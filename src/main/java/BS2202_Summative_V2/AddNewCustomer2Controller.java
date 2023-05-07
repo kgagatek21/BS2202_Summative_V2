@@ -18,6 +18,7 @@ public class AddNewCustomer2Controller {
     public Button addButton;
     public TextField emailTextField;
     public TextField confirmEmailTextField;
+    public Button backButton;
     private String loggedinUser;
 
     private String fullName;
@@ -70,5 +71,14 @@ public class AddNewCustomer2Controller {
             emailTextField.clear();
             confirmEmailTextField.clear();
         }
+    }
+
+    public void handleBackButtonAction(ActionEvent event) throws IOException {
+        Stage stage = (Stage) backButton.getScene().getWindow();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("add_new_customer_1.fxml"));
+        Parent root = loader.load();
+        Scene changeScene = new Scene(root, 1512, 982);
+        stage.setScene(changeScene);
+        stage.show();
     }
 }

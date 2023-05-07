@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="added back buttons to all screens except for return item screens">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ConfirmItemReturn1Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ConfirmItemReturn2Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ReturnItemScreenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_return_1.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/confirm_item_return_2.fxml" afterDir="false" />
+    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="return item screens now have some functionality">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/return_item_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/return_item_screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/MusicAlbum.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +179,7 @@
       <workItem from="1680184049875" duration="2426000" />
       <workItem from="1682368149404" duration="132000" />
       <workItem from="1682705061598" duration="2399000" />
-      <workItem from="1682857639617" duration="82624000" />
+      <workItem from="1682857639617" duration="85595000" />
     </task>
     <task id="LOCAL-00001" summary="New project for BS2202 summative assignment">
       <created>1679485284639</created>
@@ -433,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683470499112</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="return item screens now have some functionality">
+      <created>1683473680138</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1683473680138</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,7 +470,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="imageview only seems to be working with website urls" />
     <MESSAGE value="gave up with icons, doing signup screens now, started first controller" />
     <MESSAGE value="signup screen scripting finished but with no database connection" />
     <MESSAGE value="updated entity classes, so it now also includes Person.java and appropriate inheritance" />
@@ -488,6 +494,7 @@
     <MESSAGE value="you can now loan items" />
     <MESSAGE value="you can now add new customers" />
     <MESSAGE value="added back buttons to all screens except for return item screens" />
-    <option name="LAST_COMMIT_MESSAGE" value="added back buttons to all screens except for return item screens" />
+    <MESSAGE value="return item screens now have some functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="return item screens now have some functionality" />
   </component>
 </project>

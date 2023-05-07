@@ -7,7 +7,6 @@ import javax.persistence.Id;
 public class Customer extends Person
 {
 
-    private String fullName;
     private String emailAddress;
     private String phoneNo;
 

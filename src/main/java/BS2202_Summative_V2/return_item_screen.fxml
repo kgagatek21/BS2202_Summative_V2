@@ -11,7 +11,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="returnItemScreenAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<AnchorPane fx:id="returnItemScreenAnchorPane" fx:controller="BS2202_Summative_V2.ReturnItemScreenController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <ImageView fx:id="returnImageView" fitHeight="100.0" fitWidth="100.0" layoutX="40.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -34,12 +36,24 @@
             <Image url="@../../resources/img/search.png" />
          </image>
       </ImageView>
-      <Button fx:id="continueButton" layoutX="1264.0" layoutY="857.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="200.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Continue" textFill="WHITE">
+      <Button fx:id="continueButton" onAction="#handleContinueButtonAction" layoutX="1264.0" layoutY="857.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="200.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Continue" textFill="WHITE">
          <font>
             <Font size="32.0" />
          </font>
       </Button>
       <ScrollBar fx:id="itemScrollBar" layoutX="1395.0" layoutY="360.0" orientation="VERTICAL" prefHeight="450.0" prefWidth="32.0" />
-      <ListView fx:id="itemListView" layoutX="150.0" layoutY="360.0" prefHeight="450.0" prefWidth="1230.0" />
+      <TableView fx:id="loanTableView" fixedCellSize="20.0" layoutX="150.0" layoutY="430.0" prefHeight="375.0" prefWidth="1230.0">
+         <columns>
+            <TableColumn fx:id="customerNameColumn" minWidth="200.0" prefWidth="75.0" text="Customer Name" />
+            <TableColumn fx:id="itemNameColumn" minWidth="200.0" prefWidth="75.0" text="Item Name" />
+            <TableColumn fx:id="loanStartDateColumn" minWidth="200.0" prefWidth="75.0" text="Loan Start Date" />
+            <TableColumn fx:id="expReturnDateColumn" minWidth="200.0" prefWidth="75.0" text="Expected Return Date" />
+            <TableColumn fx:id="lateFeesColumn" minWidth="200.0" prefWidth="75.0" text="Late Fees Accumulated" />
+         </columns></TableView>
+      <Button fx:id="backButton" onAction="#handleBackButtonAction" layoutX="20.0" layoutY="21.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="55.0" text="Back&#10;&#10;">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

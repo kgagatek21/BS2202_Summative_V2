@@ -45,7 +45,7 @@
             <Font size="32.0" />
          </font>
       </Button>
-      <TextField fx:id="searchTextField" layoutX="150.0" layoutY="322.0" prefHeight="80.0" prefWidth="1278.0" promptText="Search">
+      <TextField fx:id="searchTextField" layoutX="150.0" layoutY="322.0" prefHeight="80.0" prefWidth="1047.0" promptText="Search">
          <font>
             <Font size="42.0" />
          </font>
@@ -80,6 +80,11 @@
          </font>
       </Button>
       <Button fx:id="showItemImageButton" layoutX="510.0" layoutY="859.0" mnemonicParsing="false" onAction="#handleShowItemImageButtonAction" prefHeight="80.0" prefWidth="306.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Show Item Image" textFill="WHITE">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+      <Button fx:id="searchButton" layoutX="1224.0" layoutY="318.0" mnemonicParsing="false" onAction="#handleSearchButtonAction" prefHeight="80.0" prefWidth="200.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Search" textFill="WHITE">
          <font>
             <Font size="32.0" />
          </font>

@@ -32,6 +32,7 @@ public class LoanNewItemScreenController implements Initializable
     public Button filterForMoviesButton;
     public Button filterForMusicButton;
     public TextField searchTextField;
+
     public Button continueButton;
     public TableView<Item> itemTableView;
     public TableColumn<Item, String> nameColumn;
@@ -42,6 +43,7 @@ public class LoanNewItemScreenController implements Initializable
     public Button printItemButton;
     public Button backButton;
     public Button showItemImageButton;
+    public Button searchButton;
 
     private String loggedinUser;
 
@@ -157,5 +159,18 @@ public class LoanNewItemScreenController implements Initializable
         Scene changeScene = new Scene(root, 1512, 982);
         stage.setScene(changeScene);
         stage.show();
+    }
+
+    public void handleSearchButtonAction(ActionEvent event) {
+
+        if (!(searchTextField.getText() == null)) {
+            List<Item> list = DatabaseConnection.getItem(searchTextField.getText());
+            ObservableList<Item> list1 = FXCollections.observableArrayList();
+            list1.addAll(list);
+            itemTableView.setItems(list1);
+        }else
+        {
+            itemTableView.setItems(getItem());
+        }
     }
 }

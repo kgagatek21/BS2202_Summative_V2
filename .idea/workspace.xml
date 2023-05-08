@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="return item screens now have some functionality">
+    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="deleted redundant classes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/ItemImageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/item_image.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/johnwick.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/Admin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/Movie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/MusicAlbum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/LoanNewItemScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/LoanNewItemScreenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/loan_new_item_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/loan_new_item_screen.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/kacpergagatek/IdeaProjects/BS2202_Summative_V2/src/main/java/BS2202_Summative_V2",
+    "last_opened_file_path": "/Users/kacpergagatek/IdeaProjects/BS2202_Summative_V2/src/main/resources/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -101,8 +100,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2" />
       <recent name="$PROJECT_DIR$/src/main/resources/img" />
+      <recent name="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2" />
@@ -179,7 +178,7 @@
       <workItem from="1680184049875" duration="2426000" />
       <workItem from="1682368149404" duration="132000" />
       <workItem from="1682705061598" duration="2399000" />
-      <workItem from="1682857639617" duration="85595000" />
+      <workItem from="1682857639617" duration="88062000" />
     </task>
     <task id="LOCAL-00001" summary="New project for BS2202 summative assignment">
       <created>1679485284639</created>
@@ -440,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683473680138</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="deleted redundant classes">
+      <created>1683493369203</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1683493369203</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +476,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="gave up with icons, doing signup screens now, started first controller" />
     <MESSAGE value="signup screen scripting finished but with no database connection" />
     <MESSAGE value="updated entity classes, so it now also includes Person.java and appropriate inheritance" />
     <MESSAGE value="updated entity classes, so it now also @Entity and @Id tags, and proper getters and setters" />
@@ -495,6 +500,7 @@
     <MESSAGE value="you can now add new customers" />
     <MESSAGE value="added back buttons to all screens except for return item screens" />
     <MESSAGE value="return item screens now have some functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="return item screens now have some functionality" />
+    <MESSAGE value="deleted redundant classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted redundant classes" />
   </component>
 </project>

@@ -41,6 +41,7 @@ public class LoanNewItemScreenController implements Initializable
     public TableColumn<Item, Integer> copiesAvailableColumn;
     public Button printItemButton;
     public Button backButton;
+    public Button showItemImageButton;
 
     private String loggedinUser;
 
@@ -141,5 +142,20 @@ public class LoanNewItemScreenController implements Initializable
             stage.setScene(changeScene);
             stage.show();
         }
+    }
+
+    public void handleShowItemImageButtonAction(ActionEvent event) throws IOException {
+        Item item = itemTableView.getSelectionModel().getSelectedItem();
+
+        Stage stage = (Stage) showItemImageButton.getScene().getWindow();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("item_image.fxml"));
+        Parent root = loader.load();
+
+        ItemImageController controller = loader.getController();
+        controller.receiveInformation(loggedinUser, item);
+
+        Scene changeScene = new Scene(root, 1512, 982);
+        stage.setScene(changeScene);
+        stage.show();
     }
 }

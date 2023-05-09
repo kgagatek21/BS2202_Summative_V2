@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="itemPrintAnchorPane" fx:controller="BS2202_Summative_V2.Controllers.ItemPrintController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="returnImageView" fitHeight="100.0" fitWidth="100.0" layoutX="40.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../resources/img/return.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="itemToPrintLabel" layoutX="519.0" layoutY="90.0" text="Item to Print Details" textFill="WHITE">
+         <font>
+            <Font name="AppleGothic Regular" size="56.0" />
+         </font>
+      </Label>
+      <Separator fx:id="itemToPrintSeparator" layoutX="464.0" layoutY="173.0" prefHeight="3.0" prefWidth="600.0" />
+      <Button fx:id="confirmPrintButton" onAction="#handleConfirmPrintButtonAction" layoutX="600.0" layoutY="800.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="300.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Confirm Print" textFill="WHITE">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="itemNameImageView" fitHeight="50.0" fitWidth="50.0" layoutX="508.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../resources/img/item-title.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="itemLengthImageView" fitHeight="75.0" fitWidth="75.0" layoutX="508.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../resources/img/item-lenght.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lateFeesImageView" fitHeight="50.0" fitWidth="50.0" layoutX="508.0" layoutY="660.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../resources/img/late-fees.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="itemTypeImageView" fitHeight="50.0" fitWidth="50.0" layoutX="508.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../resources/img/item-type.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="itemNameLabel" alignment="CENTER" layoutX="470.0" layoutY="310.0" prefHeight="80.0" prefWidth="600.0" text="Item Name" textFill="#ffffff">
+         <font>
+            <Font name="AppleGothic Regular" size="36.0" />
+         </font>
+      </Label>
+      <Separator fx:id="itemNameSeparator" layoutX="490.0" layoutY="389.0" prefHeight="2.0" prefWidth="550.0" />
+      <Label fx:id="itemTypeLabel" alignment="CENTER" layoutX="470.0" layoutY="425.0" prefHeight="80.0" prefWidth="600.0" text="Item Type" textFill="#ffffff">
+         <font>
+            <Font name="AppleGothic Regular" size="36.0" />
+         </font>
+      </Label>
+      <Separator fx:id="itemTypeSeparator" layoutX="490.0" layoutY="500.0" prefHeight="2.0" prefWidth="550.0" />
+      <Label fx:id="itemLengthLabel" alignment="CENTER" layoutX="470.0" layoutY="540.0" prefHeight="80.0" prefWidth="600.0" text="Item Length" textFill="#ffffff">
+         <font>
+            <Font name="AppleGothic Regular" size="36.0" />
+         </font>
+      </Label>
+      <Separator fx:id="itemLengthSeparator" layoutX="490.0" layoutY="615.0" prefHeight="2.0" prefWidth="550.0" />
+      <Label fx:id="lateFeesLabel" alignment="CENTER" layoutX="470.0" layoutY="655.0" prefHeight="80.0" prefWidth="600.0" text="Late Fees" textFill="#ffffff">
+         <font>
+            <Font name="AppleGothic Regular" size="36.0" />
+         </font>
+      </Label>
+      <Separator fx:id="lateFeesSeparator" layoutX="490.0" layoutY="730.0" prefHeight="2.0" prefWidth="550.0" />
+      <Button fx:id="backButton" onAction="#handleBackButtonAction" layoutX="20.0" layoutY="21.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="55.0" text="Back&#10;&#10;">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

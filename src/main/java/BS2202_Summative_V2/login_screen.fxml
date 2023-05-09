@@ -42,12 +42,12 @@
    <ImageView fx:id="usernameImageView" fitHeight="50.0" fitWidth="50.0" layoutX="468.0" layoutY="426.0"
               pickOnBounds="true" preserveRatio="true">
       <image>
-         <Image url="@../../resources/img/user/icons8-user-100.jpg"/>
+         <Image url="/img/user/icons8-user-100.jpg"/>
       </image>
    </ImageView>
    <ImageView fx:id="passwordImageView" fitHeight="50.0" fitWidth="50.0" layoutX="462.0" layoutY="607.0"
               pickOnBounds="true" preserveRatio="true">
-      <Image url="@../../resources/img/lock/icons8-lock-100.png"/>
+      <Image url="/img/lock/icons8-lock-100.png"/>
    </ImageView>
    <Label fx:id="labyrinthLibraryLabel" layoutX="532.0" layoutY="222.0" prefHeight="80.0" prefWidth="443.0"
           text="Labyrinth Library" textFill="WHITE">

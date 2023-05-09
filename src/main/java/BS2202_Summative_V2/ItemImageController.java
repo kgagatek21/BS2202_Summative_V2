@@ -31,9 +31,13 @@ public class ItemImageController {
         loggedinUser = _user;
         item = _item;
 
-        System.out.println("@../../" + item.getImageUrl());
 
-        itemImageView.setImage(new Image("@../../" + item.getImageUrl()));
+        backButton.setGraphic(new ImageView(new Image("/img/return.png")));
+
+        System.out.println("/" + item.getImageUrl());
+
+        itemImageView.setImage(new Image("/img/johnwick.png"));
+        //itemImageView.setImage(new Image("/" + item.getImageUrl()));
 
 
     }

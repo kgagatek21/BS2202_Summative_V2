@@ -11,6 +11,8 @@ import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -51,6 +53,8 @@ public class ConfirmItemLoan1Controller {
         customerNameLabel.setText(customer.getFullName());
         emailAddressLabel.setText(customer.getEmailAddress());
         phoneNumberLabel.setText(customer.getPhoneNo());
+
+        backButton.setGraphic(new ImageView(new Image("/img/return.png")));
 
     }
 

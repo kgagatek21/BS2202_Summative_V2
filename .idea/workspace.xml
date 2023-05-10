@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="refactored all files into separate packages now">
+    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="changed the fxml filepaths to include &quot;/BS2202_Summative_v2/&quot; in front of it">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/AddNewCustomer1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/AddNewCustomer1Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/AddNewCustomer2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/AddNewCustomer2Controller.java" afterDir="false" />
@@ -13,13 +13,10 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/ConfirmItemReturn1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/ConfirmItemReturn1Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/ConfirmItemReturn2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/ConfirmItemReturn2Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/ConfirmItemReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/ConfirmItemReviewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/ItemImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/ItemImageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/ItemPrintConfirmationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/ItemPrintConfirmationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/ItemPrintController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/ItemPrintController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/ItemReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/ItemReviewController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/LoanItemCustomerNameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/LoanItemCustomerNameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/LoanNewItemScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/LoanNewItemScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/LoginScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/LoginScreenController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/MainScreenAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/MainScreenAdminController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/MainScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/MainScreenController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/ReturnItemScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/ReturnItemScreenController.java" afterDir="false" />
@@ -27,7 +24,25 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/SelectItemForReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/SelectItemForReviewController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/SignUpScreen1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/SignUpScreen1Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/SignUpScreen2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/SignUpScreen2Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/add_new_customer_1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/add_new_customer_1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/add_new_customer_2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/add_new_customer_2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/confirm_item_loan_1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/confirm_item_loan_1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/confirm_item_loan_2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/confirm_item_loan_2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/confirm_item_return_1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/confirm_item_return_1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/confirm_item_return_2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/confirm_item_return_2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/confirm_item_review.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/confirm_item_review.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/item_print.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/item_print.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/item_print_confirmation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/item_print_confirmation.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/item_review.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/item_review.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/loan_item_customer_name.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/loan_item_customer_name.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/loan_new_item_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/loan_new_item_screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/main_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/main_screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/main_screen_admin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/main_screen_admin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/return_item_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/return_item_screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/review_item_customer_name.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/review_item_customer_name.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/select_item_for_review.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/select_item_for_review.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/signup_screen_1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/signup_screen_1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/signup_screen_2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/signup_screen_2.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +210,7 @@
       <workItem from="1680184049875" duration="2426000" />
       <workItem from="1682368149404" duration="132000" />
       <workItem from="1682705061598" duration="2399000" />
-      <workItem from="1682857639617" duration="104496000" />
+      <workItem from="1682857639617" duration="107621000" />
     </task>
     <task id="LOCAL-00001" summary="New project for BS2202 summative assignment">
       <created>1679485284639</created>
@@ -491,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683646701255</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="changed the fxml filepaths to include &quot;/BS2202_Summative_v2/&quot; in front of it">
+      <created>1683736471218</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1683736471218</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -577,7 +599,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="updated entity classes again, created class mapping, hibernate config and DatabaseConnection class" />
     <MESSAGE value="app connects to database, writes to database and fetches from database successfully with the User class" />
     <MESSAGE value="started doing customer database methods" />
     <MESSAGE value="all clases write and fetch from the database except for loans class. struggling with dates rn" />
@@ -602,6 +623,7 @@
     <MESSAGE value="you can now use search function in LoanNewItemScreenController,&#10;if there is no value in the textbox and button is presses, table will reset and show all items in the database" />
     <MESSAGE value="claire now fixed my imageviews" />
     <MESSAGE value="refactored all files into separate packages now" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored all files into separate packages now" />
+    <MESSAGE value="changed the fxml filepaths to include &quot;/BS2202_Summative_v2/&quot; in front of it" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed the fxml filepaths to include &quot;/BS2202_Summative_v2/&quot; in front of it" />
   </component>
 </project>

@@ -14,6 +14,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -47,6 +49,7 @@ public class LoanItemCustomerNameController implements Initializable
 
         loggedinUser = user;
         selectedItem = item;
+        backButton.setGraphic(new ImageView(new Image("/img/return.png")));
 
     }
 

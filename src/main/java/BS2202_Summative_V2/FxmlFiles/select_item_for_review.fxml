@@ -69,5 +69,10 @@
             <TableColumn fx:id="copiesLoanedColumn" minWidth="200.0" prefWidth="75.0" text="No. of Copies Currently on Loan" />
             <TableColumn fx:id="copiesAvailableColumn" minWidth="200.0" prefWidth="75.0" text="No. of Copies Currently Available" />
          </columns></TableView>
+      <Button fx:id="backButton" layoutX="20.0" layoutY="21.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #363636;" text="Back&#10;&#10;">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

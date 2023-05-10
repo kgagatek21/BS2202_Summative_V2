@@ -9,8 +9,11 @@ import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
+import java.io.IOException;
 import java.util.Objects;
 
 public class SignUpScreen2Controller
@@ -33,6 +36,7 @@ public class SignUpScreen2Controller
         loggedinUser = loggedinUser_;
         newFullname = newFullname_;
         newUsername = newUsername_;
+        backButton.setGraphic(new ImageView(new Image("/img/return.png")));
 
     }
 
@@ -96,6 +100,17 @@ public class SignUpScreen2Controller
         SignUpScreen1Controller controller = loader.getController();
         controller.receiveInformation(getLoggedinUser());
         Scene changeScene = new Scene(root, 1512, 982);
+        stage.setScene(changeScene);
+        stage.show();
+    }
+
+    public void handleBackButtonAction(ActionEvent event) throws IOException {
+        Stage stage = (Stage) backButton.getScene().getWindow();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/signup_screen_1.fxml"));
+        Parent root = loader.load();
+        MainScreenAdminController controller = loader.getController();
+        controller.receiveInformation(getLoggedinUser());
+        Scene changeScene = new Scene(root, 600, 400);
         stage.setScene(changeScene);
         stage.show();
     }

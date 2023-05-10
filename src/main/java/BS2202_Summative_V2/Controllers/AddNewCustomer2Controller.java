@@ -9,6 +9,8 @@ import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -31,6 +33,7 @@ public class AddNewCustomer2Controller {
         loggedinUser = _user;
         fullName = _fullName;
         phoneNo = _phoneNo;
+        backButton.setGraphic(new ImageView(new Image("/img/return.png")));
 
     }
 

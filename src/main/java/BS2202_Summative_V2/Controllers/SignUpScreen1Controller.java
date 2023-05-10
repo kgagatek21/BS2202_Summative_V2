@@ -7,7 +7,11 @@ import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
+
+import java.io.IOException;
 
 public class SignUpScreen1Controller
 {
@@ -24,7 +28,9 @@ public class SignUpScreen1Controller
 
     public void receiveInformation(String information)
     {
+
         loggedinUser = information;
+        backButton.setGraphic(new ImageView(new Image("/img/return.png")));
     }
 
     public void handleNextButtonAction(ActionEvent event) throws Exception
@@ -53,8 +59,8 @@ public class SignUpScreen1Controller
         }
     }
 
-    public void handleBackButton(ActionEvent event) throws Exception
-    {
+
+    public void handleBackButtonAction(ActionEvent event) throws IOException {
         Stage stage = (Stage) backButton.getScene().getWindow();
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/main_screen_admin.fxml"));
         Parent root = loader.load();

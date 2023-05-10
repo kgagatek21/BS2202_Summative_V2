@@ -14,11 +14,7 @@
 
 <AnchorPane fx:id="loanNewItemScreenAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BS2202_Summative_V2.Controllers.LoanNewItemScreenController">
    <children>
-      <ImageView fx:id="returnImageView" fitHeight="100.0" fitWidth="100.0" layoutX="40.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../resources/img/return.png" />
-         </image>
-      </ImageView>
+
       <Label fx:id="listOfItemsLabel" layoutX="600.0" layoutY="90.0" text="List of Items" textFill="WHITE">
          <font>
             <Font name="AppleGothic Regular" size="56.0" />

@@ -36,7 +36,7 @@
             <Font name="AppleGothic Regular" size="46.0" />
          </font>
       </Label>
-      <Button fx:id="backButton" onAction="#handleBackButtonAction" layoutX="20.0" layoutY="21.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="55.0" text="Back&#10;&#10;">
+      <Button fx:id="backButton" layoutX="20.0" layoutY="21.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #363636;" text="Back&#10;&#10;">
          <font>
             <Font size="12.0" />
          </font>

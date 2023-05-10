@@ -6,6 +6,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -33,7 +35,9 @@ public class ConfirmItemReturn1Controller {
 
     public void receiveInformation(String information)
     {
+
         loggedinUser = information;
+        backButton.setGraphic(new ImageView(new Image("/img/return.png")));
     }
 
     public void handleConfirmReturnButtonAction(ActionEvent event) throws IOException {

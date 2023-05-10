@@ -12,6 +12,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
@@ -35,6 +36,7 @@ public class SelectItemForReviewController implements Initializable
     public TableColumn<Item, String> lengthColumn;
     public TableColumn<Item, Integer> copiesLoanedColumn;
     public TableColumn<Item, Integer> copiesAvailableColumn;
+    public Button backButton;
 
     private String loggedinUser;
 
@@ -44,7 +46,9 @@ public class SelectItemForReviewController implements Initializable
     }
     public void receiveInformation(String information)
     {
+
         loggedinUser = information;
+        backButton.setGraphic(new ImageView(new Image("/img/return.png")));
     }
 
     public void initialize(URL location, ResourceBundle resources)
@@ -94,5 +98,18 @@ public class SelectItemForReviewController implements Initializable
         stage.setScene(changeScene);
         stage.show();
 
+    }
+
+    public void handleBackButtonAction(ActionEvent event) throws IOException {
+        Stage stage = (Stage) backButton.getScene().getWindow();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/main_screen.fxml"));
+        Parent root = loader.load();
+
+        MainScreenController controller = loader.getController();
+        controller.receiveInformation(loggedinUser);
+
+        Scene changeScene = new Scene(root, 600, 400);
+        stage.setScene(changeScene);
+        stage.show();
     }
 }

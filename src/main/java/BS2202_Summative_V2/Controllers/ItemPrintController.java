@@ -9,6 +9,8 @@ import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
 import java.io.FileWriter;
@@ -42,6 +44,8 @@ public class ItemPrintController implements Initializable {
         itemTypeLabel.setText(item.getType());
         itemLengthLabel.setText(item.getLength());
         lateFeesLabel.setText("£0.50 per day");
+
+        backButton.setGraphic(new ImageView(new Image("/img/return.png")));
 
     }
 

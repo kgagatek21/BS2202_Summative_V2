@@ -83,7 +83,7 @@ public class SelectItemForReviewController implements Initializable
         Item item = itemTableView.getSelectionModel().getSelectedItem();
 
         Stage stage = (Stage) continueButton.getScene().getWindow();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/review_item_customer_name.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/review_item_customer_name.fxml"));
         Parent root = loader.load();
 
 

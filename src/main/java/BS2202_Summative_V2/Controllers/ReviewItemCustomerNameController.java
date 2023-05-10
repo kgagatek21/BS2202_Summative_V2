@@ -73,7 +73,7 @@ public class ReviewItemCustomerNameController implements Initializable {
         Customer customer = customerTableView.getSelectionModel().getSelectedItem();
 
         Stage stage = (Stage) continueButton.getScene().getWindow();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/confirm_item_review.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/confirm_item_review.fxml"));
         Parent root = loader.load();
 
         ConfirmItemReviewController controller = loader.getController();

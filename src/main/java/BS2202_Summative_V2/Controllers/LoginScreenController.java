@@ -15,6 +15,7 @@ import javafx.stage.Stage;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 
+import java.nio.charset.Charset;
 import java.util.List;
 import java.util.Objects;
 
@@ -31,8 +32,6 @@ public class LoginScreenController
 
     @FXML protected void handleLogInButtonAction(ActionEvent event) throws Exception
     {
-
-
         try
         {
             List<?> list = DatabaseConnection.getUser(usernameTextField.getText());
@@ -40,15 +39,12 @@ public class LoginScreenController
 //            data.setUsername(user.getUsername());
             System.out.println("login screen user:" + usernameTextField.getText());
 
-
-
-
             //thought I could use "==" but it doesn't work so used object.equals() instead
             if ((user.isUserAdmin) && (Objects.equals(passwordPasswordField.getText(), user.getPassword())))
             {
 
                 Stage stage = (Stage) logInButton.getScene().getWindow();
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/main_screen_admin.fxml"));
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/main_screen_admin.fxml"));
                 Parent root = loader.load();
 
                 MainScreenAdminController controller = loader.getController();
@@ -63,7 +59,7 @@ public class LoginScreenController
             else if (!(user.isUserAdmin) && (Objects.equals(passwordPasswordField.getText(), user.getPassword())))
             {
                 Stage stage = (Stage) logInButton.getScene().getWindow();
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/main_screen.fxml"));
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/main_screen.fxml"));
                 Parent root = loader.load();
 
                 MainScreenController controller = loader.getController();

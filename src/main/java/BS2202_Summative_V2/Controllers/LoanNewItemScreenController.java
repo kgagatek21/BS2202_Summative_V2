@@ -87,7 +87,7 @@ public class LoanNewItemScreenController implements Initializable
         Item item = itemTableView.getSelectionModel().getSelectedItem();
 
         Stage stage = (Stage) printItemButton.getScene().getWindow();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/item_print.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/item_print.fxml"));
         Parent root = loader.load();
 
         ItemPrintController controller = loader.getController();
@@ -103,7 +103,7 @@ public class LoanNewItemScreenController implements Initializable
         Item item = itemTableView.getSelectionModel().getSelectedItem();
 
         Stage stage = (Stage) continueButton.getScene().getWindow();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/loan_item_customer_name.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/loan_item_customer_name.fxml"));
         Parent root = loader.load();
 
         LoanItemCustomerNameController controller = loader.getController();
@@ -122,7 +122,7 @@ public class LoanNewItemScreenController implements Initializable
         if (user.isUserAdmin)
         {
             Stage stage = (Stage) backButton.getScene().getWindow();
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/main_screen_admin.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/main_screen_admin.fxml"));
             Parent root = loader.load();
 
             MainScreenAdminController controller = loader.getController();
@@ -136,7 +136,7 @@ public class LoanNewItemScreenController implements Initializable
         {
 
             Stage stage = (Stage) backButton.getScene().getWindow();
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/main_screen.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/main_screen.fxml"));
             Parent root = loader.load();
 
             MainScreenController controller = loader.getController();
@@ -152,7 +152,7 @@ public class LoanNewItemScreenController implements Initializable
         Item item = itemTableView.getSelectionModel().getSelectedItem();
 
         Stage stage = (Stage) showItemImageButton.getScene().getWindow();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/item_image.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/item_image.fxml"));
         Parent root = loader.load();
 
         ItemImageController controller = loader.getController();

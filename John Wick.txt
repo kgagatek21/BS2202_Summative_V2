@@ -1,0 +1,4 @@
+Item Name: John Wick
+Item Type: DVD
+Item Length: 120 mins
+Item Fees: £0.50 per day

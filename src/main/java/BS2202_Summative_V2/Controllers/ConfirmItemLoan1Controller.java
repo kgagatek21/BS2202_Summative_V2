@@ -69,7 +69,7 @@ public class ConfirmItemLoan1Controller {
             DatabaseConnection.addLoanToDatabase(loan);
 
             Stage stage = (Stage) confirmLoanButton.getScene().getWindow();
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/confirm_item_loan_2.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/confirm_item_loan_2.fxml"));
             Parent root = loader.load();
 
             ConfirmItemLoan2Controller controller = loader.getController();
@@ -96,7 +96,7 @@ public class ConfirmItemLoan1Controller {
 
     public void handleBackButtonAction(ActionEvent event) throws IOException {
         Stage stage = (Stage) backButton.getScene().getWindow();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/loan_item_customer_name.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/loan_item_customer_name.fxml"));
         Parent root = loader.load();
         Scene changeScene = new Scene(root, 1512, 982);
         stage.setScene(changeScene);

@@ -27,7 +27,7 @@ public class AddNewCustomer1Controller {
 
     public void handleNextButtonAction(ActionEvent event) throws IOException {
         Stage stage = (Stage) nextButton.getScene().getWindow();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/add_new_customer_2.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/add_new_customer_2.fxml"));
         Parent root = loader.load();
 
         AddNewCustomer2Controller controller = loader.getController();
@@ -41,7 +41,7 @@ public class AddNewCustomer1Controller {
 
     public void handleBackButtonAction(ActionEvent event) throws IOException {
         Stage stage = (Stage) backButton.getScene().getWindow();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/loan_item_customer_name.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/loan_item_customer_name.fxml"));
         Parent root = loader.load();
         Scene changeScene = new Scene(root, 1512, 982);
         stage.setScene(changeScene);

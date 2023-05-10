@@ -39,7 +39,7 @@ public class ConfirmItemReturn1Controller {
     public void handleConfirmReturnButtonAction(ActionEvent event) throws IOException {
 
         Stage stage = (Stage) confirmReturnButton.getScene().getWindow();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/confirm_item_return_2.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/confirm_item_return_2.fxml"));
         Parent root = loader.load();
 
         ConfirmItemReturn2Controller controller = loader.getController();
@@ -52,7 +52,7 @@ public class ConfirmItemReturn1Controller {
 
     public void handleBackButtonAction(ActionEvent event) throws IOException {
         Stage stage = (Stage) backButton.getScene().getWindow();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/return_item_screen.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/return_item_screen.fxml"));
         Parent root = loader.load();
 
 //        MainScreenController controller = loader.getController();

@@ -49,7 +49,7 @@ public class ConfirmItemReviewController implements Initializable
 
     public void handleContinueButtonOnAction(ActionEvent event) throws IOException {
         Stage stage = (Stage) continueButton.getScene().getWindow();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/item_review.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/item_review.fxml"));
         Parent root = loader.load();
 
         ItemReviewController controller = loader.getController();

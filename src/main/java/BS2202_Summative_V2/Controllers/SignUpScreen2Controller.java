@@ -77,7 +77,7 @@ public class SignUpScreen2Controller
             alert.showAndWait();
 
             Stage stage = (Stage) createUserButton.getScene().getWindow();
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/main_screen_admin.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/main_screen_admin.fxml"));
             Parent root = loader.load();
             MainScreenAdminController controller = loader.getController();
             controller.receiveInformation(getLoggedinUser());
@@ -91,7 +91,7 @@ public class SignUpScreen2Controller
     public void handleBackButton(ActionEvent event) throws Exception
     {
         Stage stage = (Stage) backButton.getScene().getWindow();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/signup_screen_1.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/signup_screen_1.fxml"));
         Parent root = loader.load();
         SignUpScreen1Controller controller = loader.getController();
         controller.receiveInformation(getLoggedinUser());

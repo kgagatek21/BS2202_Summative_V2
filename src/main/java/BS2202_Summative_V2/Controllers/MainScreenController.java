@@ -32,7 +32,7 @@ public class MainScreenController implements Initializable
     @FXML public void handleLoanNewItemButtonAction(ActionEvent event) throws Exception
     {
         Stage stage = (Stage) loanNewItemButton.getScene().getWindow();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/loan_new_item_screen.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/loan_new_item_screen.fxml"));
         Parent root = loader.load();
         LoanNewItemScreenController controller = loader.getController();
         controller.receiveInformation(loggedinUser);
@@ -44,7 +44,7 @@ public class MainScreenController implements Initializable
     @FXML public void handleSubmitReviewButtonAction(ActionEvent event) throws Exception
     {
         Stage stage = (Stage) submitReviewButton.getScene().getWindow();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/select_item_for_review.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/select_item_for_review.fxml"));
         Parent root = loader.load();
         SelectItemForReviewController controller = loader.getController();
         controller.receiveInformation(loggedinUser);
@@ -56,7 +56,7 @@ public class MainScreenController implements Initializable
     @FXML public void handleReturnItemButtonAction(ActionEvent event) throws Exception
     {
         Stage stage = (Stage) returnItemButton.getScene().getWindow();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/return_item_screen.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/return_item_screen.fxml"));
         Parent root = loader.load();
         Scene changeScene = new Scene(root, 1512, 982);
         stage.setScene(changeScene);
@@ -66,7 +66,7 @@ public class MainScreenController implements Initializable
     @FXML public void handleLogoutButton(ActionEvent event) throws Exception
     {
         Stage stage = (Stage) logoutButton.getScene().getWindow();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/login_screen.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/login_screen.fxml"));
         Parent root = loader.load();
         Scene changeScene = new Scene(root, 1512, 982);
         stage.setScene(changeScene);

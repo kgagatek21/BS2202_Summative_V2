@@ -71,7 +71,7 @@ public class ItemPrintController implements Initializable {
         }
 
         Stage stage = (Stage) confirmPrintButton.getScene().getWindow();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/item_print_confirmation.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/item_print_confirmation.fxml"));
         Parent root = loader.load();
         ItemPrintConfirmationController controller = loader.getController();
         controller.receiveInformation(loggedinUser);
@@ -87,7 +87,7 @@ public class ItemPrintController implements Initializable {
 
     public void handleBackButtonAction(ActionEvent event) throws IOException {
         Stage stage = (Stage) backButton.getScene().getWindow();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/loan_new_item_screen.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/loan_new_item_screen.fxml"));
         Parent root = loader.load();
         Scene changeScene = new Scene(root, 1512, 982);
         stage.setScene(changeScene);

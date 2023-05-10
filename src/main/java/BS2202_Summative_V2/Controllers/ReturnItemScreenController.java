@@ -70,7 +70,7 @@ public class ReturnItemScreenController implements Initializable {
 //        ItemsOnLoan loan = (ItemsOnLoan) loanTableView.getSelectionModel().getSelectedItem();
 
         Stage stage = (Stage) continueButton.getScene().getWindow();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/confirm_item_return_1.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/confirm_item_return_1.fxml"));
         Parent root = loader.load();
 
         ConfirmItemReturn1Controller controller = loader.getController();
@@ -89,7 +89,7 @@ public class ReturnItemScreenController implements Initializable {
         if (user.isUserAdmin)
         {
             Stage stage = (Stage) backButton.getScene().getWindow();
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/main_screen_admin.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/main_screen_admin.fxml"));
             Parent root = loader.load();
 
             MainScreenAdminController controller = loader.getController();
@@ -103,7 +103,7 @@ public class ReturnItemScreenController implements Initializable {
         {
 
             Stage stage = (Stage) backButton.getScene().getWindow();
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/main_screen.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/main_screen.fxml"));
             Parent root = loader.load();
 
             MainScreenController controller = loader.getController();

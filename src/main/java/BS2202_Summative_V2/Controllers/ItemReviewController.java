@@ -59,7 +59,7 @@ public class ItemReviewController {
 
 
         Stage stage = (Stage) submitButton.getScene().getWindow();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("FxmlFiles/main_screen_admin.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/BS2202_Summative_v2/FxmlFiles/main_screen_admin.fxml"));
         Parent root = loader.load();
         Scene changeScene = new Scene(root, 600, 400);
         stage.setScene(changeScene);

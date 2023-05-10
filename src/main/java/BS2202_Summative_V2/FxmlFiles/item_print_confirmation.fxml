@@ -10,11 +10,7 @@
 
 <AnchorPane fx:id="itemPrintConfirmationAnchorPane" fx:controller="BS2202_Summative_V2.Controllers.ItemPrintConfirmationController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ImageView fx:id="returnImageView" fitHeight="100.0" fitWidth="100.0" layoutX="40.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../resources/img/return.png" />
-         </image>
-      </ImageView>
+
       <Label fx:id="itemPrintSuccessfulLabel" layoutX="505.0" layoutY="220.0" text="Item Print Successful" textFill="WHITE">
          <font>
             <Font name="AppleGothic Regular" size="56.0" />
@@ -28,7 +24,7 @@
       </Button>
       <ImageView fx:id="itemPrintSuccessfulImageView" fitHeight="50.0" fitWidth="50.0" layoutX="399.0" layoutY="475.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../resources/img/check_box.png" />
+            <Image url="/img/check_box.png" />
          </image>
       </ImageView>
       <Label fx:id="itemPrintedSuccessfullyLabel" alignment="CENTER" layoutX="446.0" layoutY="464.0" prefHeight="80.0" prefWidth="777.0" text="Item Has Been Printed Successfully" textFill="#a8a7a7">

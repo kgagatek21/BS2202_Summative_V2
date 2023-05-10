@@ -15,11 +15,7 @@
 <?import javafx.scene.control.TableColumn?>
 <AnchorPane fx:id="returnItemScreenAnchorPane" fx:controller="BS2202_Summative_V2.Controllers.ReturnItemScreenController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ImageView fx:id="returnImageView" fitHeight="100.0" fitWidth="100.0" layoutX="40.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../resources/img/return.png" />
-         </image>
-      </ImageView>
+
       <Label fx:id="itemsOnLoanLabel" layoutX="567.0" layoutY="90.0" text="Items on Loan" textFill="WHITE">
          <font>
             <Font name="AppleGothic Regular" size="56.0" />
@@ -33,7 +29,7 @@
       </TextField>
       <ImageView fx:id="searchImageView" fitHeight="80.0" fitWidth="80.0" layoutX="54.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../resources/img/search.png" />
+            <Image url="/img/search.png" />
          </image>
       </ImageView>
       <Button fx:id="continueButton" onAction="#handleContinueButtonAction" layoutX="1264.0" layoutY="857.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="200.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Continue" textFill="WHITE">

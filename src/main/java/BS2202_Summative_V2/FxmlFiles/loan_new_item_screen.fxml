@@ -48,7 +48,7 @@
       </TextField>
       <ImageView fx:id="searchImageView" fitHeight="80.0" fitWidth="80.0" layoutX="54.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../resources/img/search.png" />
+            <Image url="/img/search.png" />
          </image>
       </ImageView>
       <Button fx:id="continueButton" layoutX="1264.0" layoutY="857.0" mnemonicParsing="false" onAction="#handleContinueButtonAction" prefHeight="80.0" prefWidth="200.0" style="-fx-background-color: #E8175D; -fx-background-radius: 45;" text="Continue" textFill="WHITE">

@@ -11,11 +11,7 @@
 
 <AnchorPane fx:id="addNewCustomer1AnchorPane" fx:controller="BS2202_Summative_V2.Controllers.AddNewCustomer1Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ImageView fx:id="returnImageView" fitHeight="100.0" fitWidth="100.0" layoutX="40.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../resources/img/return.png" />
-         </image>
-      </ImageView>
+
       <Label fx:id="addNewCustomer12Label" layoutX="400.0" layoutY="90.0" text="Add New Customer Step: 1/2" textFill="WHITE">
          <font>
             <Font name="AppleGothic Regular" size="56.0" />
@@ -29,12 +25,12 @@
       </Button>
       <ImageView fx:id="fullNameImageView" fitHeight="50.0" fitWidth="50.0" layoutX="508.0" layoutY="380.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../resources/img/person-outline.png" />
+            <Image url="/img/person-outline.png" />
          </image>
       </ImageView>
       <ImageView fx:id="phoneNumberImageView" fitHeight="50.0" fitWidth="50.0" layoutX="508.0" layoutY="535.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../resources/img/phone.png" />
+            <Image url="/img/phone.png" />
          </image>
       </ImageView>
       <Separator fx:id="fullNameSeparator" layoutX="490.0" layoutY="450.0" prefHeight="2.0" prefWidth="550.0" />

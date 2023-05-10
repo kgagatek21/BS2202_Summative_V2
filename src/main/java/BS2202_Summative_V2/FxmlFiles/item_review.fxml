@@ -12,11 +12,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="892.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BS2202_Summative_V2.Controllers.ItemReviewController">
    <children>
-      <ImageView fx:id="returnButton" fitHeight="100.0" fitWidth="100.0" layoutX="24.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../resources/img/return.png" />
-         </image>
-      </ImageView>
+
       <Label fx:id="reviewLabel" layoutX="670.0" layoutY="134.0" text="Review" textFill="WHITE">
          <font>
             <Font name="AppleGothic Regular" size="56.0" />
@@ -36,7 +32,7 @@
       </TextField>
       <ImageView fx:id="reviewTypeImageView" fitHeight="50.0" fitWidth="50.0" layoutX="500.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../resources/img/review-type.png" />
+            <Image url="/img/review-type.png" />
          </image>
       </ImageView>
       <Separator fx:id="typeHereSeparator" layoutX="477.0" layoutY="550.0" prefHeight="1.0" prefWidth="550.0" />

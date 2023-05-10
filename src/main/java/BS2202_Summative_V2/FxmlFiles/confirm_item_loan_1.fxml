@@ -10,11 +10,7 @@
 
 <AnchorPane fx:id="confirmItemLoan1AnchorPane" fx:controller="BS2202_Summative_V2.Controllers.ConfirmItemLoan1Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ImageView fx:id="returnImageView" fitHeight="100.0" fitWidth="100.0" layoutX="40.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../resources/img/return.png" />
-         </image>
-      </ImageView>
+
       <Label fx:id="confirmItemLoanLabel" layoutX="519.0" layoutY="90.0" text="Confirm Item Loan" textFill="WHITE">
          <font>
             <Font name="AppleGothic Regular" size="56.0" />
@@ -28,22 +24,22 @@
       </Button>
       <ImageView fx:id="itemNameImageView" fitHeight="50.0" fitWidth="50.0" layoutX="165.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../resources/img/item-title.png" />
+            <Image url="/img/item-title.png" />
          </image>
       </ImageView>
       <ImageView fx:id="itemLengthImageView" fitHeight="75.0" fitWidth="75.0" layoutX="155.0" layoutY="545.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../resources/img/item-lenght.png" />
+            <Image url="/img/item-lenght.png" />
          </image>
       </ImageView>
       <ImageView fx:id="lateFeesImageView" fitHeight="50.0" fitWidth="50.0" layoutX="160.0" layoutY="665.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../resources/img/late-fees.png" />
+            <Image url="/img/late-fees.png" />
          </image>
       </ImageView>
       <ImageView fx:id="emailAddressImageView" fitHeight="50.0" fitWidth="50.0" layoutX="820.0" layoutY="665.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../resources/img/email.png" />
+            <Image url="/img/email.png" />
          </image>
       </ImageView>
       <Label fx:id="itemNameLabel" alignment="CENTER" layoutX="225.0" layoutY="430.0" prefHeight="80.0" prefWidth="470.0" text="Item Name" textFill="#ffffff">
@@ -84,12 +80,12 @@
       <Separator fx:id="phoneNumberSeparator" layoutX="800.0" layoutY="620.0" prefHeight="2.0" prefWidth="550.0" />
       <ImageView fx:id="phoneNumberImageView" fitHeight="50.0" fitWidth="50.0" layoutX="820.0" layoutY="555.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../resources/img/phone.png" />
+            <Image url="/img/phone.png" />
          </image>
       </ImageView>
       <ImageView fx:id="customerNameImageView"  fitHeight="50.0" fitWidth="50.0" layoutX="820.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../resources/img/person-outline.png" />
+            <Image url="/img/person-outline.png" />
          </image>
       </ImageView>
       <Label fx:id="customerDetailsLabel" layoutX="920.0" layoutY="300.0" text="Customer Details:" textFill="WHITE">

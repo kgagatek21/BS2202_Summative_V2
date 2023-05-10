@@ -10,11 +10,7 @@
 
 <AnchorPane fx:id="confirmItemReviewAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="892.0" prefWidth="1512.0" style="-fx-background-color: #363636;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BS2202_Summative_V2.Controllers.ConfirmItemReviewController">
    <children>
-      <ImageView fx:id="returnImageView" fitHeight="100.0" fitWidth="100.0" layoutX="24.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../resources/img/return.png" />
-         </image>
-      </ImageView>
+
       <Label fx:id="sureReviewItemLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="177.0" layoutY="209.0" text="Are you sure you want to review this item ?" textFill="WHITE">
          <font>
             <Font name="AppleGothic Regular" size="56.0" />

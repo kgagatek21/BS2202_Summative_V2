@@ -23,12 +23,12 @@
       </TextField>
       <ImageView fx:id="fullNameImageView" fitHeight="50.0" fitWidth="50.0" layoutX="470.0" layoutY="425.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../resources/img/user/icons8-user-100.jpg" />
+            <Image url="/img/user/icons8-user-100.jpg" />
          </image>
       </ImageView>
       <ImageView fx:id="usernameImageView" fitHeight="50.0" fitWidth="50.0" layoutX="470.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../resources/img/person-add.png" />
+            <Image url="/img/person-add.png" />
          </image>
       </ImageView>
       <Label fx:id="createNewUser12Label" layoutX="380.0" layoutY="222.0" prefHeight="80.0" prefWidth="740.0" text="Create New User Step: 1/2" textFill="WHITE">

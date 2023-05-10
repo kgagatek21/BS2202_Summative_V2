@@ -12,7 +12,7 @@
    <children>
       <ImageView fx:id="returnImageView" fitHeight="100.0" fitWidth="100.0" layoutX="40.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../resources/img/return.png" />
+            <Image url="/img/return.png" />
          </image>
       </ImageView>
       <Label fx:id="addNewCustomerStep22Label" layoutX="400.0" layoutY="220.0" text="Add New Customer Step 2/2" textFill="WHITE">
@@ -28,7 +28,7 @@
       </Button>
       <ImageView fx:id="newCustomerSuccessfulImageView" fitHeight="50.0" fitWidth="50.0" layoutX="300.0" layoutY="475.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../resources/img/check_box.png" />
+            <Image url="/img/check_box.png" />
          </image>
       </ImageView>
       <Label fx:id="newCustomerSuccessfulLabel" alignment="CENTER" layoutX="350.0" layoutY="461.0" prefHeight="80.0" prefWidth="959.0" text="New Customer Has Been Added Sucessfully" textFill="#a8a7a7">

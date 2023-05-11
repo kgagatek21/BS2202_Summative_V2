@@ -4,26 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="back buttons are mostly functional">
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/add_new_custmer_confirmation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/add_new_custmer_confirmation.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/add_new_customer_1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/add_new_customer_1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/add_new_customer_2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/add_new_customer_2.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/confirm_item_loan_1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/confirm_item_loan_1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/confirm_item_loan_2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/confirm_item_loan_2.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/confirm_item_return_1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/confirm_item_return_1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/confirm_item_return_2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/confirm_item_return_2.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/confirm_item_review.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/confirm_item_review.fxml" afterDir="false" />
+    <list default="true" id="2484a1bb-6f0c-4ed6-9bb9-bde1f810013e" name="Changes" comment="icons are working now">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/hp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/lotr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/trss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BS2202_Summative_V2/JavaClasses/DatabaseConnectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BS2202_Summative_V2/JavaClasses/ItemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/ItemImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/Controllers/ItemImageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/item_image.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/item_image.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/item_print.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/item_print.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/item_print_confirmation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/item_print_confirmation.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/item_review.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/item_review.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/loan_item_customer_name.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/loan_item_customer_name.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/loan_new_item_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/loan_new_item_screen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/return_item_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/return_item_screen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/review_item_customer_name.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/review_item_customer_name.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/select_item_for_review.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/select_item_for_review.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/signup_screen_1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/signup_screen_1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/signup_screen_2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/FxmlFiles/signup_screen_2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BS2202_Summative_V2/JavaClasses/Item.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +66,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -126,28 +117,7 @@
       <recent name="BS2202_Summative_V2.Controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BS2202_Summative_V2 [run]">
-    <configuration name="BS2202_Summative_V2 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.DatabaseConnectionTest">
     <configuration name="BS2202_Summative_V2 [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -169,10 +139,105 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="DatabaseConnectionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;BS2202_Summative_V2.JavaClasses.DatabaseConnectionTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ItemTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;BS2202_Summative_V2.JavaClasses.ItemTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ItemTest.getItemID" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;BS2202_Summative_V2.JavaClasses.ItemTest.getItemID&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ItemTest.getItemIDTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;BS2202_Summative_V2.JavaClasses.ItemTest.getItemIDTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DatabaseConnectionTest" />
+        <item itemvalue="Gradle.ItemTest" />
+        <item itemvalue="Gradle.ItemTest.getItemIDTest" />
+        <item itemvalue="Gradle.ItemTest.getItemID" />
         <item itemvalue="Gradle.BS2202_Summative_V2 [run]" />
-        <item itemvalue="Gradle.BS2202_Summative_V2 [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +256,7 @@
       <workItem from="1680184049875" duration="2426000" />
       <workItem from="1682368149404" duration="132000" />
       <workItem from="1682705061598" duration="2399000" />
-      <workItem from="1682857639617" duration="108371000" />
+      <workItem from="1682857639617" duration="114598000" />
     </task>
     <task id="LOCAL-00001" summary="New project for BS2202 summative assignment">
       <created>1679485284639</created>
@@ -501,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683739565923</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="icons are working now">
+      <created>1683740323997</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1683740323997</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,7 +659,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="started doing customer database methods" />
     <MESSAGE value="all clases write and fetch from the database except for loans class. struggling with dates rn" />
     <MESSAGE value="all classes write and fetch from the database" />
     <MESSAGE value="LoginScreenController is now fetching and checking against usernames and passwords in the database" />
@@ -612,6 +683,11 @@
     <MESSAGE value="refactored all files into separate packages now" />
     <MESSAGE value="changed the fxml filepaths to include &quot;/BS2202_Summative_v2/&quot; in front of it" />
     <MESSAGE value="back buttons are mostly functional" />
-    <option name="LAST_COMMIT_MESSAGE" value="back buttons are mostly functional" />
+    <MESSAGE value="icons are working now" />
+    <option name="LAST_COMMIT_MESSAGE" value="icons are working now" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BS2202_Summative_V2$ItemTest_getItemID.ic" NAME="ItemTest.getItemID Coverage Results" MODIFIED="1683831482529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/BS2202_Summative_V2$ItemTest.ic" NAME="ItemTest Coverage Results" MODIFIED="1683831365357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

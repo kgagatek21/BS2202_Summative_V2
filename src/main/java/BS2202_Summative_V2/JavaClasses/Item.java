@@ -19,7 +19,7 @@ public class Item {
 //    @JoinColumn (name = "Item_ID")
 //    private Set<ItemsOnLoan> loans;
 
-    public Item(int _itemID, String _Name, String _Length, String _Type, int _NoOfAvailableCopies, int _NoCopiesLoaned)
+    public Item(int _itemID, String _Name, String _Length, String _Type, int _NoOfAvailableCopies, int _NoCopiesLoaned, String _ImageUrl)
     {
         itemID = _itemID;
         this.name = _Name;
@@ -27,6 +27,7 @@ public class Item {
         this.type = _Type;
         this.noCopiesAvailable = _NoOfAvailableCopies;
         this.noCopiesLoaned = _NoCopiesLoaned;
+        this.imageUrl = _ImageUrl;
 
     }
 

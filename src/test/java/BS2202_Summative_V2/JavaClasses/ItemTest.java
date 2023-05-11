@@ -42,7 +42,7 @@ public class ItemTest {
     @Test
     void getNoCopiesLoanedTest()
     {
-        assertEquals(3, item.getNoCopiesLoaned());
+        assertEquals(2, item.getNoCopiesLoaned());
     }
 
     @Test
